@@ -1,0 +1,4 @@
+catamaran simTime: 0
+cabine surface 240000.00 mm2
+float length 1000.00, width W212 400.00 mm
+catamaran drawn successfully!
