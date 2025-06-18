@@ -1,0 +1,41 @@
+{
+	"name": "maker_parame76",
+	"version": "0.0.1",
+	"description": "parameters and stl of parame76",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/charlyoleg2/maker_parame76.git"
+	},
+	"homepage": "https://github.com/charlyoleg2/maker_parame76#readme",
+	"author": "charlyoleg2",
+	"license": "ISC",
+	"keywords": [
+		"desi76",
+		"parametrix"
+	],
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"desi76-uis": "desi76-uis",
+		"desi76-cli": "desi76-cli",
+		"desi76-cli-help": "desi76-cli --help",
+		"catamaran_list-outopt": "desi76-cli --design desi76/catamaran list-outopt",
+		"catamaran_json_param": "desi76-cli --design=desi76/catamaran write json_param",
+		"catamaran_openscad_long": "desi76-cli --design=desi76/catamaran --param=refs/catamaran/px_catamaran_v01.json --outDir=refs/catamaran --outFileName=catamaran_v01.scad write scad_3d_openscad",
+		"catamaran_openscad": "desi76-cli -d=desi76/catamaran -p=refs/catamaran/px_catamaran_v01.json -o=refs/catamaran --outFileName=catamaran_v01.scad write scad_3d_openscad",
+		"catamaran_view": "openscad refs/catamaran/catamaran_v01.scad",
+		"catamaran_stl": "openscad -o refs/catamaran/catamaran_v01.stl refs/catamaran/catamaran_v01.scad",
+		"make_parts": "node make_parts.js",
+		"git_clean": "git clean -f",
+		"install_jscad": "npm install --prefix=refs @jscad/cli",
+		"check_jscad": "npx --prefix=refs jscad -v",
+		"clean_jscad": "rimraf refs/node_modules refs/package-lock.json refs/package.json",
+		"ls_refs": "ls -ltra refs"
+	},
+	"devDependencies": {
+		"desi76-cli": "^0.1.1",
+		"desi76-uis": "^0.1.1",
+		"rimraf": "^6.0.1"
+	}
+}
