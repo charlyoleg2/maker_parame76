@@ -1,0 +1,20 @@
+{
+  "lastModif": "20250822_125028",
+  "partName": "stairs",
+  "pVal": {
+    "Nn": 25,
+    "Nd": 20,
+    "D1": 5000,
+    "Wi1": 1000,
+    "We1": 1000,
+    "Wi2": 2000,
+    "We2": 2000,
+    "Details": 0,
+    "spiral": 0,
+    "border": 0,
+    "H1": 200,
+    "Wc": 200,
+    "Nc": 6
+  },
+  "comment": ""
+}
