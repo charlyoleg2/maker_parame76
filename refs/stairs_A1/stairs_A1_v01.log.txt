@@ -1,0 +1,4 @@
+stairs simTime: 0
+Stair angle 18.00 degree
+Stairs angle 1.25 turn with 4 columns
+stairs drawn successfully!
