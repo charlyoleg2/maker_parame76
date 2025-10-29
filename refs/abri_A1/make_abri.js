@@ -26,5 +26,5 @@ async function execCmd(cmd) {
 //rCmd.push(`npx desi76-cli -d=desi76/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.scad write scad_3d_openscad`);
 //rCmd.push(`openscad -o refs/${dName}/${fName}_oscad.stl refs/${dName}/${fName}.scad`);
 execCmd('ls -la');
-//execCmd(`npx desi76-cli -d=desi76/abri -p=px_abri_A1_v01.json --outFileName=abri_A1.scad write scad_3d_openscad`);
+execCmd(`npx desi76-cli -d=desi76/abri -p=px_abri_A1_v01.json --outFileName=abri_A1_pl1_lolop1.scad write scad_3d_openscad`);
 
