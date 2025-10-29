@@ -25,7 +25,10 @@ async function execCmd(cmd) {
 
 //rCmd.push(`npx desi76-cli -d=desi76/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.scad write scad_3d_openscad`);
 //rCmd.push(`openscad -o refs/${dName}/${fName}_oscad.stl refs/${dName}/${fName}.scad`);
-execCmd('ls -la');
-execCmd(`npx desi76-cli -d=desi76/abri -p=px_abri_A1_v01.json --outFileName=abri_A1_pl1_lolop1.scad write scad_3d_openscad`);
-execCmd(`openscad -o output/abri_A1_pl1_lolop1_oscad.stl output/abri_A1_pl1_lolop1.scad`);
+await execCmd('ls -la');
+await execCmd(`npx desi76-cli -d=desi76/abri -p=px_abri_A1_v01.json -m d3Plank1 1 -m d3Plank1West 0 -m d3Plank1East 0 -m d3Plank1SN 1 --outFileName=abri_A1_pl1_lolop1.scad write scad_3d_openscad`);
+await execCmd(`openscad -o output/abri_A1_pl1_lolop1_oscad.stl output/abri_A1_pl1_lolop1.scad`);
+await execCmd(`npx desi76-cli -d=desi76/abri -p=px_abri_A1_v01.json -m d3Plank5 1 --outFileName=abri_A1_pl5.scad write scad_3d_openscad`);
+await execCmd(`openscad -o output/abri_A1_pl5_oscad.stl output/abri_A1_pl5.scad`);
+await execCmd('ls -la output');
 
