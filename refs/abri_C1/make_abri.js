@@ -40,6 +40,12 @@ await execCmd(`openscad -o ${oDir}/${scadName}_oscad.stl ${oDir}/${scadName}.sca
 scadName = `${refName}_pl1_loedp1_x1`;
 await execCmd(`npx desi76-cli ${opt1} -m d3Plank1 1 -m d3Plank1West 0 -m d3Plank1East 2 -m d3Plank1SN 0 --outFileName=${scadName}.scad ${opt2}`);
 await execCmd(`openscad -o ${oDir}/${scadName}_oscad.stl ${oDir}/${scadName}.scad`);
+scadName = `${refName}_pl1_edlop2_x1`;
+await execCmd(`npx desi76-cli ${opt1} -m d3Plank1 1 -m d3Plank1West 2 -m d3Plank1East 0 -m d3Plank1SN 1 --outFileName=${scadName}.scad ${opt2}`);
+await execCmd(`openscad -o ${oDir}/${scadName}_oscad.stl ${oDir}/${scadName}.scad`);
+scadName = `${refName}_pl1_loedp2_x1`;
+await execCmd(`npx desi76-cli ${opt1} -m d3Plank1 1 -m d3Plank1West 0 -m d3Plank1East 2 -m d3Plank1SN 1 --outFileName=${scadName}.scad ${opt2}`);
+await execCmd(`openscad -o ${oDir}/${scadName}_oscad.stl ${oDir}/${scadName}.scad`);
 scadName = `${refName}_pl1_edlop3_x1`;
 await execCmd(`npx desi76-cli ${opt1} -m d3Plank1 1 -m d3Plank1West 2 -m d3Plank1East 0 -m d3Plank1SN 2 --outFileName=${scadName}.scad ${opt2}`);
 await execCmd(`openscad -o ${oDir}/${scadName}_oscad.stl ${oDir}/${scadName}.scad`);
@@ -53,12 +59,18 @@ scadName = `${refName}_pl1_loedp4_x1`;
 await execCmd(`npx desi76-cli ${opt1} -m d3Plank1 1 -m d3Plank1West 0 -m d3Plank1East 2 -m d3Plank1SN 3 --outFileName=${scadName}.scad ${opt2}`);
 await execCmd(`openscad -o ${oDir}/${scadName}_oscad.stl ${oDir}/${scadName}.scad`);
 // pl2
-scadName = `${refName}_pl2EE_x6`;
+scadName = `${refName}_pl2EE_x8`;
 await execCmd(`npx desi76-cli ${opt1} -m d3Plank2EE 1 --outFileName=${scadName}.scad ${opt2}`);
 await execCmd(`openscad -o ${oDir}/${scadName}_oscad.stl ${oDir}/${scadName}.scad`);
 // pl3
-scadName = `${refName}_pl3EE_x4`;
-await execCmd(`npx desi76-cli ${opt1} -m d3Plank3EE 1 --outFileName=${scadName}.scad ${opt2}`);
+scadName = `${refName}_pl3S_x4`;
+await execCmd(`npx desi76-cli ${opt1} -m d3Plank3S 1 --outFileName=${scadName}.scad ${opt2}`);
+await execCmd(`openscad -o ${oDir}/${scadName}_oscad.stl ${oDir}/${scadName}.scad`);
+scadName = `${refName}_pl3M_x4`;
+await execCmd(`npx desi76-cli ${opt1} -m d3Plank3M 1 --outFileName=${scadName}.scad ${opt2}`);
+await execCmd(`openscad -o ${oDir}/${scadName}_oscad.stl ${oDir}/${scadName}.scad`);
+scadName = `${refName}_pl3N_x4`;
+await execCmd(`npx desi76-cli ${opt1} -m d3Plank3N 1 --outFileName=${scadName}.scad ${opt2}`);
 await execCmd(`openscad -o ${oDir}/${scadName}_oscad.stl ${oDir}/${scadName}.scad`);
 // pl4
 scadName = `${refName}_pl4S_x2`;
