@@ -88,7 +88,7 @@ scadName = `${refName}_plda_x8`;
 await execCmd(`npx desi76-cli ${opt1} -m d3PlankDiagA 1 --outFileName=${scadName}.scad ${opt2}`);
 await execCmd(`openscad -o ${oDir}/${scadName}_oscad.stl ${oDir}/${scadName}.scad`);
 // pldb
-scadName = `${refName}_pldb_x4`;
+scadName = `${refName}_pldb_x6`;
 await execCmd(`npx desi76-cli ${opt1} -m d3PlankDiagB 1 --outFileName=${scadName}.scad ${opt2}`);
 await execCmd(`openscad -o ${oDir}/${scadName}_oscad.stl ${oDir}/${scadName}.scad`);
 // pldt
