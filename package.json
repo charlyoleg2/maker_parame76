@@ -36,6 +36,6 @@
 	"devDependencies": {
 		"desi76-cli": "^0.1.10",
 		"desi76-uis": "^0.1.10",
-		"rimraf": "^6.1.0"
+		"rimraf": "^6.1.2"
 	}
 }
