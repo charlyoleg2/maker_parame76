@@ -34,8 +34,8 @@
 		"ls_refs": "ls -ltra refs"
 	},
 	"devDependencies": {
-		"desi76-cli": "^0.1.10",
-		"desi76-uis": "^0.1.10",
+		"desi76-cli": "^0.1.11",
+		"desi76-uis": "^0.1.11",
 		"rimraf": "^6.1.2"
 	}
 }
