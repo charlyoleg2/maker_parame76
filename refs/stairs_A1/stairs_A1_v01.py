@@ -642,16 +642,16 @@ def stairs_faceTop():
 	return rOneFig
 
 def ctr_face_stairs_faceTopColumn_Fa0_Ctr0():
-	P000 = App.Vector(126.2750, 1520.0000, 0)
-	P001 = App.Vector(-108.3767, 1501.5325, 0)
-	P002 = App.Vector(-337.2505, 1446.5848, 0)
+	P000 = App.Vector(104.9940, 1518.8646, 0)
+	P001 = App.Vector(-128.8815, 1497.1488, 0)
+	P002 = App.Vector(-356.5051, 1439.2111, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(-275.4471, 1256.3735, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(-77.0898, 1303.9948, 0)
 	P005 = App.Vector(126.2750, 1320.0000, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(126.2750, 1520.0000, 0)
+	P006 = App.Vector(104.9940, 1518.8646, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -666,16 +666,16 @@ def face_stairs_faceTopColumn_Fa0():
 	return rOneFace
 
 def ctr_face_stairs_faceTopColumn_Fa1_Ctr0():
-	P000 = App.Vector(-126.2750, 3480.0000, 0)
-	P001 = App.Vector(-673.7957, 3436.9092, 0)
-	P002 = App.Vector(-1207.8345, 3308.6978, 0)
+	P000 = App.Vector(-104.9940, 3481.1354, 0)
+	P001 = App.Vector(-653.2906, 3441.2979, 0)
+	P002 = App.Vector(-1188.5799, 3316.0715, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(-1269.6379, 3498.9091, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(-705.0826, 3634.4469, 0)
 	P005 = App.Vector(-126.2750, 3680.0000, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(-126.2750, 3480.0000, 0)
+	P006 = App.Vector(-104.9940, 3481.1354, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -690,16 +690,16 @@ def face_stairs_faceTopColumn_Fa1():
 	return rOneFace
 
 def ctr_face_stairs_faceTopColumn_Fa2_Ctr0():
-	P000 = App.Vector(-1256.3735, -275.4471, 0)
-	P001 = App.Vector(-1180.7105, -458.1137, 0)
-	P002 = App.Vector(-1077.4037, -626.6951, 0)
+	P000 = App.Vector(-1250.1515, -292.0524, 0)
+	P001 = App.Vector(-1172.0811, -473.3302, 0)
+	P002 = App.Vector(-1066.6722, -640.2001, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(-915.6003, -509.1380, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(-1002.5092, -367.3156, 0)
 	P005 = App.Vector(-1066.1622, -213.6437, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(-1256.3735, -275.4471, 0)
+	P006 = App.Vector(-1250.1515, -292.0524, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -714,16 +714,16 @@ def face_stairs_faceTopColumn_Fa2():
 	return rOneFace
 
 def ctr_face_stairs_faceTopColumn_Fa3_Ctr0():
-	P000 = App.Vector(-3498.9091, -1269.6379, 0)
-	P001 = App.Vector(-3274.3221, -1811.8388, 0)
-	P002 = App.Vector(-2967.6813, -2312.2312, 0)
+	P000 = App.Vector(-3505.1311, -1253.0326, 0)
+	P001 = App.Vector(-3282.9553, -1796.6235, 0)
+	P002 = App.Vector(-2978.4128, -2298.7261, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(-3129.4847, -2429.7882, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(-3452.5234, -1902.6369, 0)
 	P005 = App.Vector(-3689.1204, -1331.4413, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(-3498.9091, -1269.6379, 0)
+	P006 = App.Vector(-3505.1311, -1253.0326, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -738,16 +738,16 @@ def face_stairs_faceTopColumn_Fa3():
 	return rOneFace
 
 def ctr_face_stairs_faceTopColumn_Fa4_Ctr0():
-	P000 = App.Vector(509.1380, -915.6003, 0)
-	P001 = App.Vector(630.8460, -811.6519, 0)
-	P002 = App.Vector(734.7944, -689.9439, 0)
+	P000 = App.Vector(521.0722, -906.2174, 0)
+	P001 = App.Vector(641.0420, -800.6442, 0)
+	P002 = App.Vector(743.0579, -677.6353, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(572.9910, -572.3868, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(489.4246, -670.2305, 0)
 	P005 = App.Vector(391.5810, -753.7969, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(509.1380, -915.6003, 0)
+	P006 = App.Vector(521.0722, -906.2174, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -762,16 +762,16 @@ def face_stairs_faceTopColumn_Fa4():
 	return rOneFace
 
 def ctr_face_stairs_faceTopColumn_Fa5_Ctr0():
-	P000 = App.Vector(2429.7882, -3129.4847, 0)
-	P001 = App.Vector(2904.6879, -2723.8820, 0)
-	P002 = App.Vector(3310.2906, -2248.9824, 0)
+	P000 = App.Vector(2417.8541, -3138.8675, 0)
+	P001 = App.Vector(2894.4940, -2734.8924, 0)
+	P002 = App.Vector(3302.0270, -2261.2910, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(3472.0940, -2366.5394, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(3046.1093, -2865.3034, 0)
 	P005 = App.Vector(2547.3453, -3291.2881, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(2429.7882, -3129.4847, 0)
+	P006 = App.Vector(2417.8541, -3138.8675, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -786,16 +786,16 @@ def face_stairs_faceTopColumn_Fa5():
 	return rOneFace
 
 def ctr_face_stairs_faceTopColumn_Fa6_Ctr0():
-	P000 = App.Vector(572.3868, 572.9910, 0)
-	P001 = App.Vector(468.0269, 636.9428, 0)
-	P002 = App.Vector(354.9476, 683.7818, 0)
+	P000 = App.Vector(561.3982, 580.4305, 0)
+	P001 = App.Vector(456.1312, 642.5111, 0)
+	P002 = App.Vector(342.4623, 687.3945, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(293.1442, 493.5705, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(377.2288, 458.7415, 0)
 	P005 = App.Vector(454.8298, 411.1876, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(572.3868, 572.9910, 0)
+	P006 = App.Vector(561.3982, 580.4305, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -810,16 +810,16 @@ def face_stairs_faceTopColumn_Fa6():
 	return rOneFace
 
 def ctr_face_stairs_faceTopColumn_Fa7_Ctr0():
-	P000 = App.Vector(2366.5394, 3472.0940, 0)
-	P001 = App.Vector(1801.9256, 3818.0898, 0)
-	P002 = App.Vector(1190.1374, 4071.5008, 0)
+	P000 = App.Vector(2377.5281, 3464.6544, 0)
+	P001 = App.Vector(1813.8231, 3812.5243, 0)
+	P002 = App.Vector(1202.6226, 4067.8881, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(1251.9408, 4261.7121, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(1892.7237, 3996.2911, 0)
 	P005 = App.Vector(2484.0965, 3633.8974, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(2366.5394, 3472.0940, 0)
+	P006 = App.Vector(2377.5281, 3464.6544, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -2941,16 +2941,16 @@ def stairs_faceStair0024():
 	return rOneFig
 
 def ctr_face_stairs_faceCol0000_Fa0_Ctr0():
-	P000 = App.Vector(126.2750, 1520.0000, 0)
-	P001 = App.Vector(-108.3767, 1501.5325, 0)
-	P002 = App.Vector(-337.2505, 1446.5848, 0)
+	P000 = App.Vector(104.9940, 1518.8646, 0)
+	P001 = App.Vector(-128.8815, 1497.1488, 0)
+	P002 = App.Vector(-356.5051, 1439.2111, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(-275.4471, 1256.3735, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(-77.0898, 1303.9948, 0)
 	P005 = App.Vector(126.2750, 1320.0000, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(126.2750, 1520.0000, 0)
+	P006 = App.Vector(104.9940, 1518.8646, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -2965,16 +2965,16 @@ def face_stairs_faceCol0000_Fa0():
 	return rOneFace
 
 def ctr_face_stairs_faceCol0000_Fa1_Ctr0():
-	P000 = App.Vector(-126.2750, 3480.0000, 0)
-	P001 = App.Vector(-673.7957, 3436.9092, 0)
-	P002 = App.Vector(-1207.8345, 3308.6978, 0)
+	P000 = App.Vector(-104.9940, 3481.1354, 0)
+	P001 = App.Vector(-653.2906, 3441.2979, 0)
+	P002 = App.Vector(-1188.5799, 3316.0715, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(-1269.6379, 3498.9091, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(-705.0826, 3634.4469, 0)
 	P005 = App.Vector(-126.2750, 3680.0000, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(-126.2750, 3480.0000, 0)
+	P006 = App.Vector(-104.9940, 3481.1354, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -2996,16 +2996,16 @@ def stairs_faceCol0000():
 	return rOneFig
 
 def ctr_face_stairs_faceCol0001_Fa0_Ctr0():
-	P000 = App.Vector(-1256.3735, -275.4471, 0)
-	P001 = App.Vector(-1180.7105, -458.1137, 0)
-	P002 = App.Vector(-1077.4037, -626.6951, 0)
+	P000 = App.Vector(-1250.1515, -292.0524, 0)
+	P001 = App.Vector(-1172.0811, -473.3302, 0)
+	P002 = App.Vector(-1066.6722, -640.2001, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(-915.6003, -509.1380, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(-1002.5092, -367.3156, 0)
 	P005 = App.Vector(-1066.1622, -213.6437, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(-1256.3735, -275.4471, 0)
+	P006 = App.Vector(-1250.1515, -292.0524, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -3020,16 +3020,16 @@ def face_stairs_faceCol0001_Fa0():
 	return rOneFace
 
 def ctr_face_stairs_faceCol0001_Fa1_Ctr0():
-	P000 = App.Vector(-3498.9091, -1269.6379, 0)
-	P001 = App.Vector(-3274.3221, -1811.8388, 0)
-	P002 = App.Vector(-2967.6813, -2312.2312, 0)
+	P000 = App.Vector(-3505.1311, -1253.0326, 0)
+	P001 = App.Vector(-3282.9553, -1796.6235, 0)
+	P002 = App.Vector(-2978.4128, -2298.7261, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(-3129.4847, -2429.7882, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(-3452.5234, -1902.6369, 0)
 	P005 = App.Vector(-3689.1204, -1331.4413, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(-3498.9091, -1269.6379, 0)
+	P006 = App.Vector(-3505.1311, -1253.0326, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -3051,16 +3051,16 @@ def stairs_faceCol0001():
 	return rOneFig
 
 def ctr_face_stairs_faceCol0002_Fa0_Ctr0():
-	P000 = App.Vector(509.1380, -915.6003, 0)
-	P001 = App.Vector(630.8460, -811.6519, 0)
-	P002 = App.Vector(734.7944, -689.9439, 0)
+	P000 = App.Vector(521.0722, -906.2174, 0)
+	P001 = App.Vector(641.0420, -800.6442, 0)
+	P002 = App.Vector(743.0579, -677.6353, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(572.9910, -572.3868, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(489.4246, -670.2305, 0)
 	P005 = App.Vector(391.5810, -753.7969, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(509.1380, -915.6003, 0)
+	P006 = App.Vector(521.0722, -906.2174, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -3075,16 +3075,16 @@ def face_stairs_faceCol0002_Fa0():
 	return rOneFace
 
 def ctr_face_stairs_faceCol0002_Fa1_Ctr0():
-	P000 = App.Vector(2429.7882, -3129.4847, 0)
-	P001 = App.Vector(2904.6879, -2723.8820, 0)
-	P002 = App.Vector(3310.2906, -2248.9824, 0)
+	P000 = App.Vector(2417.8541, -3138.8675, 0)
+	P001 = App.Vector(2894.4940, -2734.8924, 0)
+	P002 = App.Vector(3302.0270, -2261.2910, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(3472.0940, -2366.5394, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(3046.1093, -2865.3034, 0)
 	P005 = App.Vector(2547.3453, -3291.2881, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(2429.7882, -3129.4847, 0)
+	P006 = App.Vector(2417.8541, -3138.8675, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -3106,16 +3106,16 @@ def stairs_faceCol0002():
 	return rOneFig
 
 def ctr_face_stairs_faceCol0003_Fa0_Ctr0():
-	P000 = App.Vector(572.3868, 572.9910, 0)
-	P001 = App.Vector(468.0269, 636.9428, 0)
-	P002 = App.Vector(354.9476, 683.7818, 0)
+	P000 = App.Vector(561.3982, 580.4305, 0)
+	P001 = App.Vector(456.1312, 642.5111, 0)
+	P002 = App.Vector(342.4623, 687.3945, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(293.1442, 493.5705, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(377.2288, 458.7415, 0)
 	P005 = App.Vector(454.8298, 411.1876, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(572.3868, 572.9910, 0)
+	P006 = App.Vector(561.3982, 580.4305, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -3130,16 +3130,16 @@ def face_stairs_faceCol0003_Fa0():
 	return rOneFace
 
 def ctr_face_stairs_faceCol0003_Fa1_Ctr0():
-	P000 = App.Vector(2366.5394, 3472.0940, 0)
-	P001 = App.Vector(1801.9256, 3818.0898, 0)
-	P002 = App.Vector(1190.1374, 4071.5008, 0)
+	P000 = App.Vector(2377.5281, 3464.6544, 0)
+	P001 = App.Vector(1813.8231, 3812.5243, 0)
+	P002 = App.Vector(1202.6226, 4067.8881, 0)
 	S000 = Part.Arc(P000, P001, P002)
 	P003 = App.Vector(1251.9408, 4261.7121, 0)
 	S001 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(1892.7237, 3996.2911, 0)
 	P005 = App.Vector(2484.0965, 3633.8974, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(2366.5394, 3472.0940, 0)
+	P006 = App.Vector(2377.5281, 3464.6544, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -3172,241 +3172,241 @@ subpax_stairs_Stair0000 = fex_subpax_stairs_Stair0000()
 
 def fex_subpax_stairs_Stair0001():
 	FIG = stairs_faceStair0001()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 200.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 150.0000))
 	return VFP
 subpax_stairs_Stair0001 = fex_subpax_stairs_Stair0001()
 
 def fex_subpax_stairs_Stair0002():
 	FIG = stairs_faceStair0002()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 400.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 350.0000))
 	return VFP
 subpax_stairs_Stair0002 = fex_subpax_stairs_Stair0002()
 
 def fex_subpax_stairs_Stair0003():
 	FIG = stairs_faceStair0003()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 600.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 550.0000))
 	return VFP
 subpax_stairs_Stair0003 = fex_subpax_stairs_Stair0003()
 
 def fex_subpax_stairs_Stair0004():
 	FIG = stairs_faceStair0004()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 800.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 750.0000))
 	return VFP
 subpax_stairs_Stair0004 = fex_subpax_stairs_Stair0004()
 
 def fex_subpax_stairs_Stair0005():
 	FIG = stairs_faceStair0005()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 1000.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 950.0000))
 	return VFP
 subpax_stairs_Stair0005 = fex_subpax_stairs_Stair0005()
 
 def fex_subpax_stairs_Stair0006():
 	FIG = stairs_faceStair0006()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 1200.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 1150.0000))
 	return VFP
 subpax_stairs_Stair0006 = fex_subpax_stairs_Stair0006()
 
 def fex_subpax_stairs_Stair0007():
 	FIG = stairs_faceStair0007()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 1400.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 1350.0000))
 	return VFP
 subpax_stairs_Stair0007 = fex_subpax_stairs_Stair0007()
 
 def fex_subpax_stairs_Stair0008():
 	FIG = stairs_faceStair0008()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 1600.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 1550.0000))
 	return VFP
 subpax_stairs_Stair0008 = fex_subpax_stairs_Stair0008()
 
 def fex_subpax_stairs_Stair0009():
 	FIG = stairs_faceStair0009()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 1800.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 1750.0000))
 	return VFP
 subpax_stairs_Stair0009 = fex_subpax_stairs_Stair0009()
 
 def fex_subpax_stairs_Stair0010():
 	FIG = stairs_faceStair0010()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 2000.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 1950.0000))
 	return VFP
 subpax_stairs_Stair0010 = fex_subpax_stairs_Stair0010()
 
 def fex_subpax_stairs_Stair0011():
 	FIG = stairs_faceStair0011()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 2200.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 2150.0000))
 	return VFP
 subpax_stairs_Stair0011 = fex_subpax_stairs_Stair0011()
 
 def fex_subpax_stairs_Stair0012():
 	FIG = stairs_faceStair0012()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 2400.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 2350.0000))
 	return VFP
 subpax_stairs_Stair0012 = fex_subpax_stairs_Stair0012()
 
 def fex_subpax_stairs_Stair0013():
 	FIG = stairs_faceStair0013()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 2600.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 2550.0000))
 	return VFP
 subpax_stairs_Stair0013 = fex_subpax_stairs_Stair0013()
 
 def fex_subpax_stairs_Stair0014():
 	FIG = stairs_faceStair0014()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 2800.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 2750.0000))
 	return VFP
 subpax_stairs_Stair0014 = fex_subpax_stairs_Stair0014()
 
 def fex_subpax_stairs_Stair0015():
 	FIG = stairs_faceStair0015()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 3000.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 2950.0000))
 	return VFP
 subpax_stairs_Stair0015 = fex_subpax_stairs_Stair0015()
 
 def fex_subpax_stairs_Stair0016():
 	FIG = stairs_faceStair0016()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 3200.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 3150.0000))
 	return VFP
 subpax_stairs_Stair0016 = fex_subpax_stairs_Stair0016()
 
 def fex_subpax_stairs_Stair0017():
 	FIG = stairs_faceStair0017()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 3400.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 3350.0000))
 	return VFP
 subpax_stairs_Stair0017 = fex_subpax_stairs_Stair0017()
 
 def fex_subpax_stairs_Stair0018():
 	FIG = stairs_faceStair0018()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 3600.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 3550.0000))
 	return VFP
 subpax_stairs_Stair0018 = fex_subpax_stairs_Stair0018()
 
 def fex_subpax_stairs_Stair0019():
 	FIG = stairs_faceStair0019()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 3800.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 3750.0000))
 	return VFP
 subpax_stairs_Stair0019 = fex_subpax_stairs_Stair0019()
 
 def fex_subpax_stairs_Stair0020():
 	FIG = stairs_faceStair0020()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 4000.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 3950.0000))
 	return VFP
 subpax_stairs_Stair0020 = fex_subpax_stairs_Stair0020()
 
 def fex_subpax_stairs_Stair0021():
 	FIG = stairs_faceStair0021()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 4200.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 4150.0000))
 	return VFP
 subpax_stairs_Stair0021 = fex_subpax_stairs_Stair0021()
 
 def fex_subpax_stairs_Stair0022():
 	FIG = stairs_faceStair0022()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 4400.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 4350.0000))
 	return VFP
 subpax_stairs_Stair0022 = fex_subpax_stairs_Stair0022()
 
 def fex_subpax_stairs_Stair0023():
 	FIG = stairs_faceStair0023()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 4600.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 4550.0000))
 	return VFP
 subpax_stairs_Stair0023 = fex_subpax_stairs_Stair0023()
 
 def fex_subpax_stairs_Stair0024():
 	FIG = stairs_faceStair0024()
-	VEX = FIG.extrude(App.Vector(0, 0, 200))
+	VEX = FIG.extrude(App.Vector(0, 0, 250))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 4800.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 4750.0000))
 	return VFP
 subpax_stairs_Stair0024 = fex_subpax_stairs_Stair0024()
 
