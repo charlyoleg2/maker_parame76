@@ -1,0 +1,1124 @@
+{
+  "partName": "scara",
+  "pDef": {
+    "partName": "scara",
+    "params": [
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 200,
+        "min": 1,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D11",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D12",
+        "unit": "mm",
+        "init": 60,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D21",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D22",
+        "unit": "mm",
+        "init": 40,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "firstEnd",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "intern",
+          "extern"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "secondEnd",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "extern",
+          "intern"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "Internal details",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "A1",
+        "unit": "degree",
+        "init": 90,
+        "min": 0,
+        "max": 180,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T1",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T2",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S2",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "R1i",
+        "unit": "mm",
+        "init": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "R1e",
+        "unit": "mm",
+        "init": 0.5,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "iiEn",
+        "unit": "checkbox",
+        "init": 1,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [],
+        "pType": 1
+      },
+      {
+        "name": "External details",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "N2",
+        "unit": "legs",
+        "init": 2,
+        "min": 0,
+        "max": 2,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S1",
+        "unit": "mm",
+        "init": 40,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T3",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "R2i",
+        "unit": "mm",
+        "init": 1,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "R2e",
+        "unit": "mm",
+        "init": 0.5,
+        "min": 0,
+        "max": 100,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Heights",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 50,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H2",
+        "unit": "mm",
+        "init": 2,
+        "min": 0.1,
+        "max": 200,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H3",
+        "unit": "mm",
+        "init": 5,
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H41",
+        "unit": "mm",
+        "init": 0,
+        "min": 0,
+        "max": 200,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H42",
+        "unit": "mm",
+        "init": 0,
+        "min": 0,
+        "max": 200,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "L1": "scara_top.svg",
+      "D11": "scara_top.svg",
+      "D12": "scara_top.svg",
+      "D21": "scara_top.svg",
+      "D22": "scara_top.svg",
+      "firstEnd": "scara_ends.svg",
+      "secondEnd": "scara_ends.svg",
+      "A1": "scara_top.svg",
+      "T1": "scara_top.svg",
+      "T2": "scara_top.svg",
+      "S2": "scara_top.svg",
+      "R1i": "scara_top.svg",
+      "R1e": "scara_top.svg",
+      "iiEn": "scara_top.svg",
+      "N2": "scara_top.svg",
+      "S1": "scara_top.svg",
+      "T3": "scara_top.svg",
+      "R2i": "scara_top.svg",
+      "R2e": "scara_top.svg",
+      "H1": "scara_side.svg",
+      "H2": "scara_side.svg",
+      "H3": "scara_side.svg",
+      "H41": "scara_side.svg",
+      "H42": "scara_side.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "L1": 200,
+    "D11": 20,
+    "D12": 60,
+    "D21": 10,
+    "D22": 40,
+    "firstEnd": 0,
+    "secondEnd": 0,
+    "Internal details": 0,
+    "A1": 90,
+    "T1": 2,
+    "T2": 2,
+    "S2": 30,
+    "R1i": 1,
+    "R1e": 0.5,
+    "iiEn": 1,
+    "External details": 0,
+    "N2": 2,
+    "S1": 40,
+    "T3": 2,
+    "R2i": 1,
+    "R2e": 0.5,
+    "Heights": 0,
+    "H1": 50,
+    "H2": 2,
+    "H3": 5,
+    "H41": 0,
+    "H42": 0
+  },
+  "figures": {
+    "facePlate": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 31.498128508316768,
+              "py": 29.96257016633534
+            },
+            {
+              "typ": 2,
+              "px": 31.498128508316768,
+              "py": -29.96257016633534,
+              "radius": 30,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 230.99875233887784,
+              "py": -19.975046777556894
+            },
+            {
+              "typ": 2,
+              "px": 230.99875233887784,
+              "py": 19.975046777556894,
+              "radius": 20,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 31.498128508316768,
+              "py": 29.96257016633534
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 30,
+          "cy": 0,
+          "radius": 10
+        },
+        {
+          "circle": true,
+          "cx": 230,
+          "cy": 0,
+          "radius": 5
+        }
+      ]
+    ],
+    "faceIntern": [
+      [
+        {
+          "circle": true,
+          "cx": 30,
+          "cy": 0,
+          "radius": 12
+        },
+        {
+          "circle": true,
+          "cx": 30,
+          "cy": 0,
+          "radius": 10
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 10.551407996755618,
+              "py": 20.14329340230486
+            },
+            {
+              "typ": 2,
+              "px": 49.44859200324439,
+              "py": 20.143293402304852,
+              "radius": 28,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 50.149441679609886,
+              "py": 20.14944167960988,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 50.85665361461421,
+              "py": 20.856653614614203
+            },
+            {
+              "typ": 2,
+              "px": 50.850610397309424,
+              "py": 21.569702039194045,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 46.027223294566696,
+              "py": 25.359970691349353,
+              "radius": 30,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 46.6114805339223,
+              "py": 27.204051441189172,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 199.47499176856502,
+              "py": 19.548777916956116
+            },
+            {
+              "typ": 2,
+              "px": 200,
+              "py": 20.04815211368688,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 21.049395000583495
+            },
+            {
+              "typ": 2,
+              "px": 199.52500573811642,
+              "py": 21.54876932217127,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 31.498128508316768,
+              "py": 29.96257016633534
+            },
+            {
+              "typ": 2,
+              "px": 9.149389602690572,
+              "py": 21.569702039194063,
+              "radius": 30,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 9.143346385385787,
+              "py": 20.856653614614217,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 9.850558320390121,
+              "py": 20.149441679609883
+            },
+            {
+              "typ": 2,
+              "px": 10.551407996755618,
+              "py": 20.14329340230486,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 10.55140799675561,
+              "py": -20.143293402304852
+            },
+            {
+              "typ": 2,
+              "px": 49.448592003244386,
+              "py": -20.14329340230486,
+              "radius": 28,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 50.149441679609886,
+              "py": -20.149441679609875,
+              "radius": 0.5,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 50.85665361461421,
+              "py": -20.856653614614206
+            },
+            {
+              "typ": 2,
+              "px": 50.85061039730943,
+              "py": -21.569702039194045,
+              "radius": 0.5,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 46.02722329456669,
+              "py": -25.35997069134936,
+              "radius": 30,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 46.61148053392231,
+              "py": -27.204051441189172,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 199.47499176856502,
+              "py": -19.548777916956116
+            },
+            {
+              "typ": 2,
+              "px": 200,
+              "py": -20.04815211368688,
+              "radius": 0.5,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": -21.049395000583495
+            },
+            {
+              "typ": 2,
+              "px": 199.52500573811642,
+              "py": -21.54876932217127,
+              "radius": 0.5,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 31.498128508316768,
+              "py": -29.96257016633534
+            },
+            {
+              "typ": 2,
+              "px": 9.149389602690576,
+              "py": -21.569702039194052,
+              "radius": 30,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 9.143346385385794,
+              "py": -20.85665361461421,
+              "radius": 0.5,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 9.850558320390117,
+              "py": -20.149441679609886
+            },
+            {
+              "typ": 2,
+              "px": 10.55140799675561,
+              "py": -20.143293402304852,
+              "radius": 0.5,
+              "large": false,
+              "ccw": false
+            }
+          ]
+        }
+      ]
+    ],
+    "faceExtern": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 70.4749925168481,
+              "py": 26.011191648014794
+            },
+            {
+              "typ": 1,
+              "px": 230.89887710499005,
+              "py": 17.977542099801205
+            },
+            {
+              "typ": 2,
+              "px": 237.10356309464515,
+              "py": 16.539026312343648,
+              "radius": 18,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 237.57494610428265,
+              "py": 15.120191517213447,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 233.00695794242299,
+              "py": 7.208203932499361
+            },
+            {
+              "typ": 2,
+              "px": 231.87331597130873,
+              "py": 6.744678440936943,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 223.22227914413702,
+              "py": 1.7499999999999944,
+              "radius": 7,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 222.25403330758513,
+              "py": 1.0000000000000009,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 70.5,
+              "py": 1
+            },
+            {
+              "typ": 2,
+              "px": 70,
+              "py": 0.4999999999999999,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 70,
+              "py": -0.4999999999999999
+            },
+            {
+              "typ": 2,
+              "px": 70.5,
+              "py": -1,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 222.25403330758516,
+              "py": -1.0000000000000009
+            },
+            {
+              "typ": 2,
+              "px": 223.22227914413702,
+              "py": -1.7499999999999976,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 231.87331597130873,
+              "py": -6.744678440936943,
+              "radius": 7,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 233.00695794242299,
+              "py": -7.208203932499364,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 237.57494610428265,
+              "py": -15.120191517213462
+            },
+            {
+              "typ": 2,
+              "px": 237.10356309464515,
+              "py": -16.53902631234366,
+              "radius": 1,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 230.89887710499005,
+              "py": -17.977542099801205,
+              "radius": 18,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 70.4749925168481,
+              "py": -26.011191648014794
+            },
+            {
+              "typ": 2,
+              "px": 70,
+              "py": -26.51056588221837,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 70,
+              "py": -27.51181124706788
+            },
+            {
+              "typ": 2,
+              "px": 70.52500745916028,
+              "py": -28.0111854824729,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 230.99875233887784,
+              "py": -19.975046777556894
+            },
+            {
+              "typ": 2,
+              "px": 230.99875233887784,
+              "py": 19.975046777556894,
+              "radius": 20,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 70.52500745916028,
+              "py": 28.0111854824729
+            },
+            {
+              "typ": 2,
+              "px": 70,
+              "py": 27.51181124706788,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 70,
+              "py": 26.51056588221837
+            },
+            {
+              "typ": 2,
+              "px": 70.4749925168481,
+              "py": 26.011191648014794,
+              "radius": 0.5,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 230,
+          "cy": 0,
+          "radius": 5
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 234.90440488455425,
+              "py": 4.994678440936944
+            },
+            {
+              "typ": 2,
+              "px": 234.90440488455425,
+              "py": -4.994678440936944,
+              "radius": 7,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 234.73900874999185,
+              "py": -6.208203932499367,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 239.30699691185148,
+              "py": -14.120191517213422
+            },
+            {
+              "typ": 2,
+              "px": 240.77143539302628,
+              "py": -14.42137925352012,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 240.7714353930263,
+              "py": 14.42137925352011,
+              "radius": 18,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 239.3069969118515,
+              "py": 14.12019151721346,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 234.73900874999185,
+              "py": 6.208203932499365
+            },
+            {
+              "typ": 2,
+              "px": 234.90440488455425,
+              "py": 4.994678440936944,
+              "radius": 1,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ],
+    "faceH41": [
+      [
+        {
+          "circle": true,
+          "cx": 30,
+          "cy": 0,
+          "radius": 30
+        },
+        {
+          "circle": true,
+          "cx": 30,
+          "cy": 0,
+          "radius": 10
+        }
+      ]
+    ],
+    "faceH42": [
+      [
+        {
+          "circle": true,
+          "cx": 230,
+          "cy": 0,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 230,
+          "cy": 0,
+          "radius": 5
+        }
+      ]
+    ],
+    "faceSide": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 5
+            },
+            {
+              "typ": 1,
+              "px": 250,
+              "py": 5
+            },
+            {
+              "typ": 1,
+              "px": 250,
+              "py": 7
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 7
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 5
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 57
+            },
+            {
+              "typ": 1,
+              "px": 250,
+              "py": 57
+            },
+            {
+              "typ": 1,
+              "px": 250,
+              "py": 59
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 59
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 57
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_scara_plate2",
+        "face": "scara_facePlate",
+        "extrudeMethod": 0,
+        "length": 2,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          5
+        ]
+      },
+      {
+        "outName": "subpax_scara_int3",
+        "face": "scara_faceIntern",
+        "extrudeMethod": 0,
+        "length": 50,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          7
+        ]
+      },
+      {
+        "outName": "subpax_scara_plate4",
+        "face": "scara_facePlate",
+        "extrudeMethod": 0,
+        "length": 2,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          57
+        ]
+      },
+      {
+        "outName": "subpax_scara_ext1",
+        "face": "scara_faceExtern",
+        "extrudeMethod": 0,
+        "length": 5,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_scara_ext5",
+        "face": "scara_faceExtern",
+        "extrudeMethod": 0,
+        "length": 5,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          59
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_scara",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_scara_plate2",
+          "subpax_scara_int3",
+          "subpax_scara_plate4",
+          "subpax_scara_ext1",
+          "subpax_scara_ext5"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "scara simTime: 0\nlength 250.00  height 64.00\nScara drawn successfully!\n"
+}

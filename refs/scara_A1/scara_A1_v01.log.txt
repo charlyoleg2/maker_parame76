@@ -1,0 +1,3 @@
+scara simTime: 0
+length 250.00  height 64.00
+Scara drawn successfully!
