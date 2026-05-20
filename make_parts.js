@@ -7,11 +7,13 @@ import { promisify } from 'util';
 const c_Parts = {
 	catamaran: 'catamaran_v01',
 	stairs_A1: 'stairs_A1_v01',
+	scara_A1: 'scara_A1_v01',
 };
 
 const c_svgdxf = {
 	catamaran : ['faceFloatBase', 'faceFloatWall', 'faceCabineBase', 'faceCabineWall', 'faceCabineEnv', 'faceVault'],
 	stairs_A1: ['faceTop', 'faceTopColumn', 'faceBorderI', 'faceBorderE'],
+	scara_A1: ['facePlate', 'faceExtern', 'faceIntern', 'faceH41', 'faceH42', 'faceSide'],
 };
 
 function inferDesignName(instanceName) {
