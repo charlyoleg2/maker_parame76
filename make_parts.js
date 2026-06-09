@@ -53,6 +53,14 @@ function getCmd(dName, fName) {
 	rCmd.push(`npx desi76-cli -d=desi76/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.py write py_3d_freecad`);
 	//rCmd.push(`freecad.cmd refs/${dName}/${fName}.py refs/${dName}/${fName}_fc`);
 	//rCmd.push(`npx rimraf refs/${dName}`);
+
+	// extra for long2d
+	if (desiName === "long2d") {
+		rCmd.push(`npx desi76-cli -d=desi76/${desiName} -p=refs/${dName}/px_${fName}.json -m=D3Enable 1 -o=refs/${dName} --outFileName=${fName}_printer.pax.json write pax_all`);
+		rCmd.push(`npx desi76-cli -d=desi76/${desiName} -p=refs/${dName}/px_${fName}.json -m=D3Enable 1 -o=refs/${dName} --outFileName=${fName}_printer.scad write scad_3d_openscad`);
+		rCmd.push(`npx desi76-cli -d=desi76/${desiName} -p=refs/${dName}/px_${fName}.json -m=D3Enable 1 -o=refs/${dName} --outFileName=${fName}_printer.js write js_3d_openjscad`);
+		rCmd.push(`npx desi76-cli -d=desi76/${desiName} -p=refs/${dName}/px_${fName}.json -m=D3Enable 1 -o=refs/${dName} --outFileName=${fName}_printer.py write py_3d_freecad`);
+	}
 	return rCmd
 }
 
