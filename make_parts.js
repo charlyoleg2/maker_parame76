@@ -10,7 +10,7 @@ const c_Parts = {
 	scara_A1: 'scara_A1_v01',
 	scarabase_A1: 'scarabase_A1_v01',
 	scarabase_A2: 'scarabase_A2_v01',
-	long2d_A1: 'long2d_A2_v01',
+	long2d_A1: 'long2d_A1_v01',
 };
 
 const c_svgdxf = {

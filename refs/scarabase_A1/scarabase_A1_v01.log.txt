@@ -1,0 +1,4 @@
+scarabase simTime: 0
+length 90.00  height 90.00
+W7 40.00
+ScaraBase drawn successfully!

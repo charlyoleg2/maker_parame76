@@ -1,0 +1,5 @@
+scarabase simTime: 0
+length 90.00  height 90.00
+angle between holders: 90.00
+W7 66.57
+ScaraBase drawn successfully!

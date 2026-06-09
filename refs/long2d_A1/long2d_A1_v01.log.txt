@@ -1,0 +1,20 @@
+long2d simTime: 0
+length 473.55  height NaN
+lastOrientation 34.00
+leg-1 : BL 135.00, D12 122.10, D22 101.40, BH1 92.00
+leg-2 : BL 117.50, D12 101.40, D22 80.70, BH1 71.00
+leg-3 : BL 100.00, D12 80.70, D22 60.00, BH1 50.00
+[scarabase]: scarabase simTime: 0
+[scarabase]: length 152.10  height 153.00
+[scarabase]: W7 80.00
+[scarabase]: ScaraBase drawn successfully!
+[scara1]: scara1 simTime: 0
+[scara1]: length 246.75  height 132.00
+[scara1]: Scara drawn successfully!
+[scara2]: scara2 simTime: 0
+[scara2]: length 208.55  height 111.00
+[scara2]: Scara drawn successfully!
+[scara3]: scara3 simTime: 0
+[scara3]: length 170.35  height 90.00
+[scara3]: Scara drawn successfully!
+Long2D drawn successfully!
