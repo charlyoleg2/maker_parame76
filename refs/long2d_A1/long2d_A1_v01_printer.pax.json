@@ -54,26 +54,6 @@
         "pType": 0
       },
       {
-        "name": "HA",
-        "unit": "L-factor",
-        "init": 1,
-        "min": 0.1,
-        "max": 10,
-        "step": 0.1,
-        "dropdown": [],
-        "pType": 0
-      },
-      {
-        "name": "HB",
-        "unit": "L-add",
-        "init": 0,
-        "min": -10,
-        "max": 100,
-        "step": 0.1,
-        "dropdown": [],
-        "pType": 0
-      },
-      {
         "name": "Ending parameters",
         "unit": "section-separator",
         "init": 0,
@@ -454,7 +434,7 @@
         "pType": 0
       },
       {
-        "name": "D3Enable",
+        "name": "output3D",
         "unit": "dropdown",
         "init": 0,
         "min": 0,
@@ -485,8 +465,6 @@
       "LB": "long2d_top.svg",
       "DA": "long2d_top.svg",
       "DB": "long2d_top.svg",
-      "HA": "long2d_side.svg",
-      "HB": "long2d_side.svg",
       "EL": "long2d_top.svg",
       "ED2": "long2d_top.svg",
       "EH1": "long2d_side.svg",
@@ -519,7 +497,7 @@
       "PA8": "long2d_top.svg",
       "PA9": "long2d_top.svg",
       "PA10": "long2d_top.svg",
-      "D3Enable": "long2d_top.svg"
+      "output3D": "long2d_top.svg"
     },
     "sim": {
       "tMax": 100,
@@ -533,8 +511,6 @@
     "LB": 17.5,
     "DA": 1,
     "DB": 20.7,
-    "HA": 1,
-    "HB": 0,
     "Ending parameters": 0,
     "EL": 100,
     "ED2": 60,
@@ -573,7 +549,7 @@
     "PA8": 0,
     "PA9": 0,
     "PA10": 0,
-    "D3Enable": 1
+    "output3D": 1
   },
   "figures": {
     "faceTop": [
