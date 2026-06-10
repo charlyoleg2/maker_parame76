@@ -47,7 +47,7 @@
     "PA8": 0,
     "PA9": 0,
     "PA10": 0,
-    "D3Enable": 0
+    "output3D": 0
   },
   "comment": ""
 }
