@@ -11,6 +11,7 @@ const c_Parts = {
 	scarabase_A1: 'scarabase_A1_v01',
 	scarabase_A2: 'scarabase_A2_v01',
 	long2d_A1: 'long2d_A1_v01',
+	losange_A1: 'losange_A1_v01',
 };
 
 const c_svgdxf = {
@@ -20,6 +21,7 @@ const c_svgdxf = {
 	scarabase_A1: ['facePlate', 'faceBack', 'faceT3', 'faceSide'],
 	scarabase_A2: ['facePlate', 'faceBack', 'faceT3', 'faceSide'],
 	long2d_A1: ['faceTop', 'faceSide', 'faceBack', 'faceAxis'],
+	losange_A1: ['faceTop', 'faceSide', 'faceBack', 'faceTopWithAxis'],
 };
 
 function inferDesignName(instanceName) {
@@ -55,7 +57,7 @@ function getCmd(dName, fName) {
 	//rCmd.push(`npx rimraf refs/${dName}`);
 
 	// extra for long2d
-	if (desiName === "long2d") {
+	if ((desiName === "long2d") || (desiName === "losange")) {
 		rCmd.push(`npx desi76-cli -d=desi76/${desiName} -p=refs/${dName}/px_${fName}.json -m=output3D 1 -o=refs/${dName} --outFileName=${fName}_printer.pax.json write pax_all`);
 		rCmd.push(`npx desi76-cli -d=desi76/${desiName} -p=refs/${dName}/px_${fName}.json -m=output3D 1 -o=refs/${dName} --outFileName=${fName}_printer.scad write scad_3d_openscad`);
 		rCmd.push(`npx desi76-cli -d=desi76/${desiName} -p=refs/${dName}/px_${fName}.json -m=output3D 1 -o=refs/${dName} --outFileName=${fName}_printer.js write js_3d_openjscad`);
