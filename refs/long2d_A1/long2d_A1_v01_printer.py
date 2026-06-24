@@ -484,17 +484,17 @@ def ctr_face_long2d_faceSide_Fa0_Ctr0():
 	S003 = Part.LineSegment(P003, P004)
 	P005 = App.Vector(10.0000, 20.0000, 0)
 	S004 = Part.LineSegment(P004, P005)
-	P006 = App.Vector(10.0000, 133.0000, 0)
+	P006 = App.Vector(10.0000, 131.5000, 0)
 	S005 = Part.LineSegment(P005, P006)
-	P007 = App.Vector(80.7000, 133.0000, 0)
+	P007 = App.Vector(80.7000, 131.5000, 0)
 	S006 = Part.LineSegment(P006, P007)
-	P008 = App.Vector(80.7000, 153.0000, 0)
+	P008 = App.Vector(80.7000, 151.5000, 0)
 	S007 = Part.LineSegment(P007, P008)
-	P009 = App.Vector(77.7000, 153.0000, 0)
+	P009 = App.Vector(77.7000, 151.5000, 0)
 	S008 = Part.LineSegment(P008, P009)
-	P010 = App.Vector(77.7000, 143.0000, 0)
+	P010 = App.Vector(77.7000, 141.5000, 0)
 	S009 = Part.LineSegment(P009, P010)
-	P011 = App.Vector(0.0000, 143.0000, 0)
+	P011 = App.Vector(0.0000, 141.5000, 0)
 	S010 = Part.LineSegment(P010, P011)
 	P012 = App.Vector(0.0000, 10.0000, 0)
 	S011 = Part.LineSegment(P011, P000)
@@ -541,22 +541,22 @@ def face_long2d_faceSide_Fa1():
 	return rOneFace
 
 def ctr_face_long2d_faceSide_Fa2_Ctr0():
-	P000 = App.Vector(101.4000, 133.0000, 0)
-	P001 = App.Vector(152.1000, 133.0000, 0)
+	P000 = App.Vector(101.4000, 131.5000, 0)
+	P001 = App.Vector(152.1000, 131.5000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(152.1000, 153.0000, 0)
+	P002 = App.Vector(152.1000, 151.5000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(149.1000, 153.0000, 0)
+	P003 = App.Vector(149.1000, 151.5000, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(149.1000, 143.0000, 0)
+	P004 = App.Vector(149.1000, 141.5000, 0)
 	S003 = Part.LineSegment(P003, P004)
-	P005 = App.Vector(104.4000, 143.0000, 0)
+	P005 = App.Vector(104.4000, 141.5000, 0)
 	S004 = Part.LineSegment(P004, P005)
-	P006 = App.Vector(104.4000, 153.0000, 0)
+	P006 = App.Vector(104.4000, 151.5000, 0)
 	S005 = Part.LineSegment(P005, P006)
-	P007 = App.Vector(101.4000, 153.0000, 0)
+	P007 = App.Vector(101.4000, 151.5000, 0)
 	S006 = Part.LineSegment(P006, P007)
-	P008 = App.Vector(101.4000, 133.0000, 0)
+	P008 = App.Vector(101.4000, 131.5000, 0)
 	S007 = Part.LineSegment(P007, P000)
 	aShape = Part.Shape([S000, S001, S002, S003, S004, S005, S006, S007])
 	aWire = Part.Wire(aShape.Edges)
@@ -574,9 +574,9 @@ def ctr_face_long2d_faceSide_Fa3_Ctr0():
 	P000 = App.Vector(81.0500, 0.0000, 0)
 	P001 = App.Vector(86.0500, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(86.0500, 153.0000, 0)
+	P002 = App.Vector(86.0500, 151.5000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(81.0500, 153.0000, 0)
+	P003 = App.Vector(81.0500, 151.5000, 0)
 	S002 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(81.0500, 0.0000, 0)
 	S003 = Part.LineSegment(P003, P000)
@@ -596,9 +596,9 @@ def ctr_face_long2d_faceSide_Fa4_Ctr0():
 	P000 = App.Vector(96.0500, 0.0000, 0)
 	P001 = App.Vector(101.0500, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(101.0500, 153.0000, 0)
+	P002 = App.Vector(101.0500, 151.5000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(96.0500, 153.0000, 0)
+	P003 = App.Vector(96.0500, 151.5000, 0)
 	S002 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(96.0500, 0.0000, 0)
 	S003 = Part.LineSegment(P003, P000)
@@ -615,14 +615,14 @@ def face_long2d_faceSide_Fa4():
 	return rOneFace
 
 def ctr_face_long2d_faceSide_Fa5_Ctr0():
-	P000 = App.Vector(30.0000, 20.5000, 0)
-	P001 = App.Vector(276.7500, 20.5000, 0)
+	P000 = App.Vector(30.0000, 20.2500, 0)
+	P001 = App.Vector(276.7500, 20.2500, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(276.7500, 30.5000, 0)
+	P002 = App.Vector(276.7500, 30.2500, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(30.0000, 30.5000, 0)
+	P003 = App.Vector(30.0000, 30.2500, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(30.0000, 20.5000, 0)
+	P004 = App.Vector(30.0000, 20.2500, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -637,14 +637,14 @@ def face_long2d_faceSide_Fa5():
 	return rOneFace
 
 def ctr_face_long2d_faceSide_Fa6_Ctr0():
-	P000 = App.Vector(30.0000, 122.5000, 0)
-	P001 = App.Vector(276.7500, 122.5000, 0)
+	P000 = App.Vector(30.0000, 121.2500, 0)
+	P001 = App.Vector(276.7500, 121.2500, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(276.7500, 132.5000, 0)
+	P002 = App.Vector(276.7500, 131.2500, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(30.0000, 132.5000, 0)
+	P003 = App.Vector(30.0000, 131.2500, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(30.0000, 122.5000, 0)
+	P004 = App.Vector(30.0000, 121.2500, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -659,14 +659,14 @@ def face_long2d_faceSide_Fa6():
 	return rOneFace
 
 def ctr_face_long2d_faceSide_Fa7_Ctr0():
-	P000 = App.Vector(216.0500, 10.5000, 0)
-	P001 = App.Vector(221.0500, 10.5000, 0)
+	P000 = App.Vector(216.0500, 10.2500, 0)
+	P001 = App.Vector(221.0500, 10.2500, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(221.0500, 142.5000, 0)
+	P002 = App.Vector(221.0500, 141.2500, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(216.0500, 142.5000, 0)
+	P003 = App.Vector(216.0500, 141.2500, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(216.0500, 10.5000, 0)
+	P004 = App.Vector(216.0500, 10.2500, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -681,14 +681,14 @@ def face_long2d_faceSide_Fa7():
 	return rOneFace
 
 def ctr_face_long2d_faceSide_Fa8_Ctr0():
-	P000 = App.Vector(231.0500, 10.5000, 0)
-	P001 = App.Vector(236.0500, 10.5000, 0)
+	P000 = App.Vector(231.0500, 10.2500, 0)
+	P001 = App.Vector(236.0500, 10.2500, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(236.0500, 142.5000, 0)
+	P002 = App.Vector(236.0500, 141.2500, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(231.0500, 142.5000, 0)
+	P003 = App.Vector(231.0500, 141.2500, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(231.0500, 10.5000, 0)
+	P004 = App.Vector(231.0500, 10.2500, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -703,14 +703,14 @@ def face_long2d_faceSide_Fa8():
 	return rOneFace
 
 def ctr_face_long2d_faceSide_Fa9_Ctr0():
-	P000 = App.Vector(175.3500, 31.0000, 0)
-	P001 = App.Vector(383.9000, 31.0000, 0)
+	P000 = App.Vector(175.3500, 30.5000, 0)
+	P001 = App.Vector(383.9000, 30.5000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(383.9000, 41.0000, 0)
+	P002 = App.Vector(383.9000, 40.5000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(175.3500, 41.0000, 0)
+	P003 = App.Vector(175.3500, 40.5000, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(175.3500, 31.0000, 0)
+	P004 = App.Vector(175.3500, 30.5000, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -725,14 +725,14 @@ def face_long2d_faceSide_Fa9():
 	return rOneFace
 
 def ctr_face_long2d_faceSide_Fa10_Ctr0():
-	P000 = App.Vector(175.3500, 112.0000, 0)
-	P001 = App.Vector(383.9000, 112.0000, 0)
+	P000 = App.Vector(175.3500, 111.0000, 0)
+	P001 = App.Vector(383.9000, 111.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(383.9000, 122.0000, 0)
+	P002 = App.Vector(383.9000, 121.0000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(175.3500, 122.0000, 0)
+	P003 = App.Vector(175.3500, 121.0000, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(175.3500, 112.0000, 0)
+	P004 = App.Vector(175.3500, 111.0000, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -747,14 +747,14 @@ def face_long2d_faceSide_Fa10():
 	return rOneFace
 
 def ctr_face_long2d_faceSide_Fa11_Ctr0():
-	P000 = App.Vector(333.5500, 21.0000, 0)
-	P001 = App.Vector(338.5500, 21.0000, 0)
+	P000 = App.Vector(333.5500, 20.5000, 0)
+	P001 = App.Vector(338.5500, 20.5000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(338.5500, 132.0000, 0)
+	P002 = App.Vector(338.5500, 131.0000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(333.5500, 132.0000, 0)
+	P003 = App.Vector(333.5500, 131.0000, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(333.5500, 21.0000, 0)
+	P004 = App.Vector(333.5500, 20.5000, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -769,14 +769,14 @@ def face_long2d_faceSide_Fa11():
 	return rOneFace
 
 def ctr_face_long2d_faceSide_Fa12_Ctr0():
-	P000 = App.Vector(348.5500, 21.0000, 0)
-	P001 = App.Vector(353.5500, 21.0000, 0)
+	P000 = App.Vector(348.5500, 20.5000, 0)
+	P001 = App.Vector(353.5500, 20.5000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(353.5500, 132.0000, 0)
+	P002 = App.Vector(353.5500, 131.0000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(348.5500, 132.0000, 0)
+	P003 = App.Vector(348.5500, 131.0000, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(348.5500, 21.0000, 0)
+	P004 = App.Vector(348.5500, 20.5000, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -791,14 +791,14 @@ def face_long2d_faceSide_Fa12():
 	return rOneFace
 
 def ctr_face_long2d_faceSide_Fa13_Ctr0():
-	P000 = App.Vector(303.2000, 41.5000, 0)
-	P001 = App.Vector(473.5500, 41.5000, 0)
+	P000 = App.Vector(303.2000, 40.7500, 0)
+	P001 = App.Vector(473.5500, 40.7500, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(473.5500, 51.5000, 0)
+	P002 = App.Vector(473.5500, 50.7500, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(303.2000, 51.5000, 0)
+	P003 = App.Vector(303.2000, 50.7500, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(303.2000, 41.5000, 0)
+	P004 = App.Vector(303.2000, 40.7500, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -813,14 +813,14 @@ def face_long2d_faceSide_Fa13():
 	return rOneFace
 
 def ctr_face_long2d_faceSide_Fa14_Ctr0():
-	P000 = App.Vector(303.2000, 101.5000, 0)
-	P001 = App.Vector(473.5500, 101.5000, 0)
+	P000 = App.Vector(303.2000, 100.7500, 0)
+	P001 = App.Vector(473.5500, 100.7500, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(473.5500, 111.5000, 0)
+	P002 = App.Vector(473.5500, 110.7500, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(303.2000, 111.5000, 0)
+	P003 = App.Vector(303.2000, 110.7500, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(303.2000, 101.5000, 0)
+	P004 = App.Vector(303.2000, 100.7500, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -858,9 +858,9 @@ def ctr_face_long2d_faceBack_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 20.0000, 0)
 	P001 = App.Vector(80.0000, 20.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(80.0000, 133.0000, 0)
+	P002 = App.Vector(80.0000, 131.5000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 133.0000, 0)
+	P003 = App.Vector(0.0000, 131.5000, 0)
 	S002 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(0.0000, 20.0000, 0)
 	S003 = Part.LineSegment(P003, P000)
@@ -872,28 +872,28 @@ def ctr_face_long2d_faceBack_Fa0_Ctr0():
 
 def ctr_face_long2d_faceBack_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(2.5000, App.Vector(30.0000, 61.5000, 0), App.Vector(0, 0, 1))
+	aCircle = Part.makeCircle(2.5000, App.Vector(30.0000, 60.7500, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
 def ctr_face_long2d_faceBack_Fa0_Ctr2():
 	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(2.5000, App.Vector(50.0000, 61.5000, 0), App.Vector(0, 0, 1))
+	aCircle = Part.makeCircle(2.5000, App.Vector(50.0000, 60.7500, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
 def ctr_face_long2d_faceBack_Fa0_Ctr3():
 	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(2.5000, App.Vector(30.0000, 91.5000, 0), App.Vector(0, 0, 1))
+	aCircle = Part.makeCircle(2.5000, App.Vector(30.0000, 90.7500, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
 def ctr_face_long2d_faceBack_Fa0_Ctr4():
 	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(2.5000, App.Vector(50.0000, 91.5000, 0), App.Vector(0, 0, 1))
+	aCircle = Part.makeCircle(2.5000, App.Vector(50.0000, 90.7500, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
@@ -992,9 +992,9 @@ def ctr_face_scarabase_faceBack_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 20.0000, 0)
 	P001 = App.Vector(80.0000, 20.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(80.0000, 133.0000, 0)
+	P002 = App.Vector(80.0000, 131.5000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 133.0000, 0)
+	P003 = App.Vector(0.0000, 131.5000, 0)
 	S002 = Part.LineSegment(P002, P003)
 	P004 = App.Vector(0.0000, 20.0000, 0)
 	S003 = Part.LineSegment(P003, P000)
@@ -1006,28 +1006,28 @@ def ctr_face_scarabase_faceBack_Fa0_Ctr0():
 
 def ctr_face_scarabase_faceBack_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(2.5000, App.Vector(30.0000, 61.5000, 0), App.Vector(0, 0, 1))
+	aCircle = Part.makeCircle(2.5000, App.Vector(30.0000, 60.7500, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
 def ctr_face_scarabase_faceBack_Fa0_Ctr2():
 	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(2.5000, App.Vector(50.0000, 61.5000, 0), App.Vector(0, 0, 1))
+	aCircle = Part.makeCircle(2.5000, App.Vector(50.0000, 60.7500, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
 def ctr_face_scarabase_faceBack_Fa0_Ctr3():
 	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(2.5000, App.Vector(30.0000, 91.5000, 0), App.Vector(0, 0, 1))
+	aCircle = Part.makeCircle(2.5000, App.Vector(30.0000, 90.7500, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
 def ctr_face_scarabase_faceBack_Fa0_Ctr4():
 	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(2.5000, App.Vector(50.0000, 91.5000, 0), App.Vector(0, 0, 1))
+	aCircle = Part.makeCircle(2.5000, App.Vector(50.0000, 90.7500, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
@@ -1140,17 +1140,17 @@ def ctr_face_scarabase_faceSide_Fa0_Ctr0():
 	S003 = Part.LineSegment(P003, P004)
 	P005 = App.Vector(10.0000, 20.0000, 0)
 	S004 = Part.LineSegment(P004, P005)
-	P006 = App.Vector(10.0000, 133.0000, 0)
+	P006 = App.Vector(10.0000, 131.5000, 0)
 	S005 = Part.LineSegment(P005, P006)
-	P007 = App.Vector(80.7000, 133.0000, 0)
+	P007 = App.Vector(80.7000, 131.5000, 0)
 	S006 = Part.LineSegment(P006, P007)
-	P008 = App.Vector(80.7000, 153.0000, 0)
+	P008 = App.Vector(80.7000, 151.5000, 0)
 	S007 = Part.LineSegment(P007, P008)
-	P009 = App.Vector(77.7000, 153.0000, 0)
+	P009 = App.Vector(77.7000, 151.5000, 0)
 	S008 = Part.LineSegment(P008, P009)
-	P010 = App.Vector(77.7000, 143.0000, 0)
+	P010 = App.Vector(77.7000, 141.5000, 0)
 	S009 = Part.LineSegment(P009, P010)
-	P011 = App.Vector(0.0000, 143.0000, 0)
+	P011 = App.Vector(0.0000, 141.5000, 0)
 	S010 = Part.LineSegment(P010, P011)
 	P012 = App.Vector(0.0000, 10.0000, 0)
 	S011 = Part.LineSegment(P011, P000)
@@ -1197,22 +1197,22 @@ def face_scarabase_faceSide_Fa1():
 	return rOneFace
 
 def ctr_face_scarabase_faceSide_Fa2_Ctr0():
-	P000 = App.Vector(101.4000, 133.0000, 0)
-	P001 = App.Vector(152.1000, 133.0000, 0)
+	P000 = App.Vector(101.4000, 131.5000, 0)
+	P001 = App.Vector(152.1000, 131.5000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(152.1000, 153.0000, 0)
+	P002 = App.Vector(152.1000, 151.5000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(149.1000, 153.0000, 0)
+	P003 = App.Vector(149.1000, 151.5000, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(149.1000, 143.0000, 0)
+	P004 = App.Vector(149.1000, 141.5000, 0)
 	S003 = Part.LineSegment(P003, P004)
-	P005 = App.Vector(104.4000, 143.0000, 0)
+	P005 = App.Vector(104.4000, 141.5000, 0)
 	S004 = Part.LineSegment(P004, P005)
-	P006 = App.Vector(104.4000, 153.0000, 0)
+	P006 = App.Vector(104.4000, 151.5000, 0)
 	S005 = Part.LineSegment(P005, P006)
-	P007 = App.Vector(101.4000, 153.0000, 0)
+	P007 = App.Vector(101.4000, 151.5000, 0)
 	S006 = Part.LineSegment(P006, P007)
-	P008 = App.Vector(101.4000, 133.0000, 0)
+	P008 = App.Vector(101.4000, 131.5000, 0)
 	S007 = Part.LineSegment(P007, P000)
 	aShape = Part.Shape([S000, S001, S002, S003, S004, S005, S006, S007])
 	aWire = Part.Wire(aShape.Edges)
@@ -1250,7 +1250,7 @@ def fex_subpax_scarabase_plate4():
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 133.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 131.5000))
 	return VFP
 subpax_scarabase_plate4 = fex_subpax_scarabase_plate4()
 
@@ -1280,7 +1280,7 @@ def fex_subpax_scarabase_t35():
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 143.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 141.5000))
 	return VFP
 subpax_scarabase_t35 = fex_subpax_scarabase_t35()
 
@@ -1686,14 +1686,14 @@ def face_scara1_faceSide_Fa0():
 	return rOneFace
 
 def ctr_face_scara1_faceSide_Fa1_Ctr0():
-	P000 = App.Vector(0.0000, 112.0000, 0)
-	P001 = App.Vector(246.7500, 112.0000, 0)
+	P000 = App.Vector(0.0000, 111.0000, 0)
+	P001 = App.Vector(246.7500, 111.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(246.7500, 122.0000, 0)
+	P002 = App.Vector(246.7500, 121.0000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 122.0000, 0)
+	P003 = App.Vector(0.0000, 121.0000, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(0.0000, 112.0000, 0)
+	P004 = App.Vector(0.0000, 111.0000, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -1726,7 +1726,7 @@ subpax_scara1_plate2 = fex_subpax_scara1_plate2()
 
 def fex_subpax_scara1_int3():
 	FIG = scara1_faceIntern()
-	VEX = FIG.extrude(App.Vector(0, 0, 92))
+	VEX = FIG.extrude(App.Vector(0, 0, 91))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
@@ -1740,7 +1740,7 @@ def fex_subpax_scara1_plate4():
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 112.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 111.0000))
 	return VFP
 subpax_scara1_plate4 = fex_subpax_scara1_plate4()
 
@@ -1760,7 +1760,7 @@ def fex_subpax_scara1_ext5():
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 122.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 121.0000))
 	return VFP
 subpax_scara1_ext5 = fex_subpax_scara1_ext5()
 
@@ -2166,14 +2166,14 @@ def face_scara2_faceSide_Fa0():
 	return rOneFace
 
 def ctr_face_scara2_faceSide_Fa1_Ctr0():
-	P000 = App.Vector(0.0000, 91.0000, 0)
-	P001 = App.Vector(208.5500, 91.0000, 0)
+	P000 = App.Vector(0.0000, 90.5000, 0)
+	P001 = App.Vector(208.5500, 90.5000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(208.5500, 101.0000, 0)
+	P002 = App.Vector(208.5500, 100.5000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 101.0000, 0)
+	P003 = App.Vector(0.0000, 100.5000, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(0.0000, 91.0000, 0)
+	P004 = App.Vector(0.0000, 90.5000, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -2206,7 +2206,7 @@ subpax_scara2_plate2 = fex_subpax_scara2_plate2()
 
 def fex_subpax_scara2_int3():
 	FIG = scara2_faceIntern()
-	VEX = FIG.extrude(App.Vector(0, 0, 71))
+	VEX = FIG.extrude(App.Vector(0, 0, 70.5))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
@@ -2220,7 +2220,7 @@ def fex_subpax_scara2_plate4():
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 91.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 90.5000))
 	return VFP
 subpax_scara2_plate4 = fex_subpax_scara2_plate4()
 
@@ -2240,7 +2240,7 @@ def fex_subpax_scara2_ext5():
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 101.0000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 100.5000))
 	return VFP
 subpax_scara2_ext5 = fex_subpax_scara2_ext5()
 
@@ -2768,7 +2768,7 @@ inpax_long2d_leg_3 = finh_inpax_long2d_leg_3()
 
 def fex_subpax_long2d_axis_1():
 	FIG = long2d_faceAxis()
-	VEX = FIG.extrude(App.Vector(0, 0, 153))
+	VEX = FIG.extrude(App.Vector(0, 0, 151.5))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
@@ -2778,7 +2778,7 @@ subpax_long2d_axis_1 = fex_subpax_long2d_axis_1()
 
 def fex_subpax_long2d_axis_2():
 	FIG = long2d_faceAxis()
-	VEX = FIG.extrude(App.Vector(0, 0, 132))
+	VEX = FIG.extrude(App.Vector(0, 0, 131))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
@@ -2788,7 +2788,7 @@ subpax_long2d_axis_2 = fex_subpax_long2d_axis_2()
 
 def fex_subpax_long2d_axis_3():
 	FIG = long2d_faceAxis()
-	VEX = FIG.extrude(App.Vector(0, 0, 111))
+	VEX = FIG.extrude(App.Vector(0, 0, 110.5))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
