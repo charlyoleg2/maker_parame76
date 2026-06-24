@@ -1,0 +1,24 @@
+losange simTime: 0
+length 430.00  height 145.50
+Position: X 24.93  Y 494.51 mm
+Position: A 87.11 degree  L 495.14 mm
+L0 144.35 mm  aA2B2 58.07 degree
+Angle0 A0A 20.00  A0B -5.00 degree
+[scarabase]: scarabase simTime: 0
+[scarabase]: length 140.00  height 145.50
+[scarabase]: angle between holders: 90.00
+[scarabase]: W7 66.57
+[scarabase]: ScaraBase drawn successfully!
+[scara1]: scara1 simTime: 0
+[scara1]: length 300.00  height 129.00
+[scara1]: Scara drawn successfully!
+[scara2]: scara2 simTime: 0
+[scara2]: length 320.00  height 112.50
+[scara2]: Scara drawn successfully!
+[scara3]: scara3 simTime: 0
+[scara3]: length 280.00  height 129.00
+[scara3]: Scara drawn successfully!
+[scara4]: scara4 simTime: 0
+[scara4]: length 290.00  height 82.50
+[scara4]: Scara drawn successfully!
+Long2D drawn successfully!
