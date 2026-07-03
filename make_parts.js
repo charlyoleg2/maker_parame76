@@ -12,6 +12,7 @@ const c_Parts = {
 	scarabase_A2: 'scarabase_A2_v01',
 	long2d_A1: 'long2d_A1_v01',
 	losange_A1: 'losange_A1_v01',
+	lift_A1: 'lift_A1_v01',
 };
 
 const c_svgdxf = {
@@ -22,6 +23,7 @@ const c_svgdxf = {
 	scarabase_A2: ['facePlate', 'faceBack', 'faceT3', 'faceSide'],
 	long2d_A1: ['faceTop', 'faceSide', 'faceBack', 'faceAxis'],
 	losange_A1: ['faceTop', 'faceSide', 'faceBack', 'faceTopWithAxis'],
+	lift_A1: ['faceTopPlate', 'faceTopEnd', 'faceTopBack', 'faceTopDisc', 'faceSideL', 'faceSideM', 'faceBack'],
 };
 
 function inferDesignName(instanceName) {

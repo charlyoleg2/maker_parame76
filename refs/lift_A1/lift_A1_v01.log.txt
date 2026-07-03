@@ -1,0 +1,5 @@
+lift simTime: 0
+W7 121.24 mm  outline-mode 3
+A1 bounds  b1 88.87  b2 91.17 degree
+H32124 146.00 mm
+lift drawn successfully!
