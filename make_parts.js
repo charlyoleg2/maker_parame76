@@ -13,6 +13,7 @@ const c_Parts = {
 	long2d_A1: 'long2d_A1_v01',
 	losange_A1: 'losange_A1_v01',
 	lift_A1: 'lift_A1_v01',
+	pivot_A1: 'pivot_A1_v01',
 };
 
 const c_svgdxf = {
@@ -24,6 +25,7 @@ const c_svgdxf = {
 	long2d_A1: ['faceTop', 'faceSide', 'faceBack', 'faceAxis'],
 	losange_A1: ['faceTop', 'faceSide', 'faceBack', 'faceTopWithAxis'],
 	lift_A1: ['faceTopPlate', 'faceTopEnd', 'faceTopBack', 'faceTopDisc', 'faceSideL', 'faceSideM', 'faceBack'],
+	pivot_A1: ['faceTopPlate1', 'faceTopPlate2', 'faceTopWall1', 'faceTopWall2', 'faceTopTube', 'faceTopPlate3', 'faceSidePlate', 'faceSideArc', 'faceRelief3', 'faceRelief4', 'faceRelief5'],
 };
 
 function inferDesignName(instanceName) {
