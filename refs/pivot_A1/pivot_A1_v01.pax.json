@@ -1,0 +1,2662 @@
+{
+  "partName": "pivot",
+  "pDef": {
+    "partName": "pivot",
+    "params": [
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 60,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D2",
+        "unit": "mm",
+        "init": 100,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D3",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T1",
+        "unit": "mm",
+        "init": 5,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T2",
+        "unit": "mm",
+        "init": 2,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W4",
+        "unit": "mm",
+        "init": 80,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "top details",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "S1",
+        "unit": "mm",
+        "init": 2,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S2min",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S3",
+        "unit": "mm",
+        "init": 40,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "hollowTop",
+        "unit": "checkbox",
+        "init": 1,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [],
+        "pType": 1
+      },
+      {
+        "name": "RR2",
+        "unit": "mm",
+        "init": 2,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "RR3",
+        "unit": "mm",
+        "init": 5,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "A2",
+        "unit": "degree",
+        "init": 100,
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "side",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "T3a",
+        "unit": "mm",
+        "init": 2,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T3b",
+        "unit": "mm",
+        "init": 4,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T4a",
+        "unit": "mm",
+        "init": 2,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T4b",
+        "unit": "mm",
+        "init": 4,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T5a",
+        "unit": "mm",
+        "init": 2,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T5b",
+        "unit": "mm",
+        "init": 4,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S5a",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S5b",
+        "unit": "mm",
+        "init": 80,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "RR4",
+        "unit": "mm",
+        "init": 5,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "RR5",
+        "unit": "mm",
+        "init": 5,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "heigths",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "H11",
+        "unit": "mm",
+        "init": 3,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H12",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H13",
+        "unit": "mm",
+        "init": 70,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H14",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H15",
+        "unit": "mm",
+        "init": 3,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H2",
+        "unit": "mm",
+        "init": 40,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H31",
+        "unit": "mm",
+        "init": 3,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H32",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H33",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H34",
+        "unit": "mm",
+        "init": 0,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H35",
+        "unit": "mm",
+        "init": 60,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H36",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "relief",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "U31",
+        "unit": "mm",
+        "init": 2,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "U32",
+        "unit": "mm",
+        "init": 2,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "U33",
+        "unit": "mm",
+        "init": 2,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "RR31",
+        "unit": "mm",
+        "init": 2,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "U41",
+        "unit": "mm",
+        "init": 2,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "U42",
+        "unit": "mm",
+        "init": 3,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "U43",
+        "unit": "mm",
+        "init": 4,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "U51",
+        "unit": "mm",
+        "init": 2,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "U52",
+        "unit": "mm",
+        "init": 3,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "U53",
+        "unit": "mm",
+        "init": 4,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "D1": "pivot_plate.svg",
+      "D2": "pivot_plate.svg",
+      "D3": "pivot_side_y.svg",
+      "T1": "pivot_plate.svg",
+      "T2": "pivot_plate.svg",
+      "W4": "pivot_plate.svg",
+      "S1": "pivot_plate.svg",
+      "S2min": "pivot_plate.svg",
+      "S3": "pivot_plate.svg",
+      "hollowTop": "pivot_plate.svg",
+      "RR2": "pivot_plate.svg",
+      "RR3": "pivot_plate.svg",
+      "A2": "pivot_wall.svg",
+      "T3a": "pivot_plate.svg",
+      "T3b": "pivot_plate.svg",
+      "T4a": "pivot_plate.svg",
+      "T4b": "pivot_plate.svg",
+      "T5a": "pivot_side_x.svg",
+      "T5b": "pivot_side_x.svg",
+      "S5a": "pivot_side_x.svg",
+      "S5b": "pivot_side_x.svg",
+      "RR4": "pivot_side_y.svg",
+      "RR5": "pivot_side_x.svg",
+      "H11": "pivot_side_x.svg",
+      "H12": "pivot_side_x.svg",
+      "H13": "pivot_side_x.svg",
+      "H14": "pivot_side_x.svg",
+      "H15": "pivot_side_x.svg",
+      "H2": "pivot_side_x.svg",
+      "H31": "pivot_side_x.svg",
+      "H32": "pivot_side_x.svg",
+      "H33": "pivot_side_x.svg",
+      "H34": "pivot_side_x.svg",
+      "H35": "pivot_side_x.svg",
+      "H36": "pivot_side_x.svg",
+      "U31": "pivot_relief35.svg",
+      "U32": "pivot_relief35.svg",
+      "U33": "pivot_relief35.svg",
+      "RR31": "pivot_relief35.svg",
+      "U41": "pivot_relief4.svg",
+      "U42": "pivot_relief4.svg",
+      "U43": "pivot_relief4.svg",
+      "U51": "pivot_relief35.svg",
+      "U52": "pivot_relief35.svg",
+      "U53": "pivot_relief35.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "D1": 60,
+    "D2": 100,
+    "D3": 20,
+    "T1": 5,
+    "T2": 2,
+    "W4": 80,
+    "top details": 0,
+    "S1": 2,
+    "S2min": 30,
+    "S3": 40,
+    "hollowTop": 1,
+    "RR2": 2,
+    "RR3": 5,
+    "A2": 100,
+    "side": 0,
+    "T3a": 2,
+    "T3b": 4,
+    "T4a": 2,
+    "T4b": 4,
+    "T5a": 2,
+    "T5b": 4,
+    "S5a": 10,
+    "S5b": 80,
+    "RR4": 5,
+    "RR5": 5,
+    "heigths": 0,
+    "H11": 3,
+    "H12": 10,
+    "H13": 70,
+    "H14": 10,
+    "H15": 3,
+    "H2": 40,
+    "H31": 3,
+    "H32": 30,
+    "H33": 30,
+    "H34": 0,
+    "H35": 60,
+    "H36": 30,
+    "relief": 0,
+    "U31": 2,
+    "U32": 2,
+    "U33": 2,
+    "RR31": 2,
+    "U41": 2,
+    "U42": 3,
+    "U43": 4,
+    "U51": 2,
+    "U52": 3,
+    "U53": 4
+  },
+  "figures": {
+    "faceTopPlate1": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 104,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 69.81793068761735,
+              "py": 40
+            },
+            {
+              "typ": 2,
+              "px": 68.81793068761735,
+              "py": 39.732050807568875,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 45.00000000000002,
+              "py": 25.980762113533167
+            },
+            {
+              "typ": 2,
+              "px": 42.307692307692314,
+              "py": 26.64693550105964,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 42.307692307692314,
+              "py": -26.64693550105964,
+              "radius": 50,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 44.99999999999999,
+              "py": -25.98076211353315,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 68.81793068761735,
+              "py": -39.732050807568875
+            },
+            {
+              "typ": 2,
+              "px": 69.81793068761735,
+              "py": -40,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": -40
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": 40
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 30
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 93,
+              "py": 38
+            },
+            {
+              "typ": 1,
+              "px": 70.3538290724796,
+              "py": 38
+            },
+            {
+              "typ": 2,
+              "px": 69.3538290724796,
+              "py": 37.732050807568875,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 60.5,
+              "py": 32.62029020921385
+            },
+            {
+              "typ": 2,
+              "px": 58,
+              "py": 28.290163190291654,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 58,
+              "py": -28.290163190291654
+            },
+            {
+              "typ": 2,
+              "px": 60.5,
+              "py": -32.62029020921385,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 69.3538290724796,
+              "py": -37.732050807568875
+            },
+            {
+              "typ": 2,
+              "px": 70.3538290724796,
+              "py": -38,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 93,
+              "py": -38
+            },
+            {
+              "typ": 2,
+              "px": 98,
+              "py": -33,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 98,
+              "py": 33
+            },
+            {
+              "typ": 2,
+              "px": 93,
+              "py": 38,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ],
+    "faceTopPlate2": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 104,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 69.81793068761735,
+              "py": 40
+            },
+            {
+              "typ": 2,
+              "px": 68.81793068761735,
+              "py": 39.732050807568875,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 45.00000000000002,
+              "py": 25.980762113533167
+            },
+            {
+              "typ": 2,
+              "px": 42.307692307692314,
+              "py": 26.64693550105964,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 42.307692307692314,
+              "py": -26.64693550105964,
+              "radius": 50,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 44.99999999999999,
+              "py": -25.98076211353315,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 68.81793068761735,
+              "py": -39.732050807568875
+            },
+            {
+              "typ": 2,
+              "px": 69.81793068761735,
+              "py": -40,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": -40
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": -38
+            },
+            {
+              "typ": 1,
+              "px": 100,
+              "py": -38
+            },
+            {
+              "typ": 1,
+              "px": 100,
+              "py": 38
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": 38
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": 40
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 30
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 93,
+              "py": 38
+            },
+            {
+              "typ": 1,
+              "px": 70.3538290724796,
+              "py": 38
+            },
+            {
+              "typ": 2,
+              "px": 69.3538290724796,
+              "py": 37.732050807568875,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 60.5,
+              "py": 32.62029020921385
+            },
+            {
+              "typ": 2,
+              "px": 58,
+              "py": 28.290163190291654,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 58,
+              "py": -28.290163190291654
+            },
+            {
+              "typ": 2,
+              "px": 60.5,
+              "py": -32.62029020921385,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 69.3538290724796,
+              "py": -37.732050807568875
+            },
+            {
+              "typ": 2,
+              "px": 70.3538290724796,
+              "py": -38,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 93,
+              "py": -38
+            },
+            {
+              "typ": 2,
+              "px": 98,
+              "py": -33,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 98,
+              "py": 33
+            },
+            {
+              "typ": 2,
+              "px": 93,
+              "py": 38,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ],
+    "faceTopWall1": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 104,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 69.81793068761735,
+              "py": 40
+            },
+            {
+              "typ": 2,
+              "px": 68.81793068761735,
+              "py": 39.732050807568875,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 45.00000000000002,
+              "py": 25.980762113533167
+            },
+            {
+              "typ": 2,
+              "px": 42.307692307692314,
+              "py": 26.64693550105964,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 42.307692307692314,
+              "py": -26.64693550105964,
+              "radius": 50,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 44.99999999999999,
+              "py": -25.98076211353315,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 68.81793068761735,
+              "py": -39.732050807568875
+            },
+            {
+              "typ": 2,
+              "px": 69.81793068761735,
+              "py": -40,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": -40
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": -38
+            },
+            {
+              "typ": 1,
+              "px": 70.35105603116494,
+              "py": -38
+            },
+            {
+              "typ": 2,
+              "px": 69.35554223209407,
+              "py": -37.73463318193198,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 44.258600930290655,
+              "py": -23.331385486306644
+            },
+            {
+              "typ": 2,
+              "px": 41.532563645970974,
+              "py": -24.06337792150907,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 41.53256364597098,
+              "py": 24.06337792150907,
+              "radius": 48,
+              "large": true,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 44.25860093029064,
+              "py": 23.331385486306633,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 69.35554223209407,
+              "py": 37.73463318193198
+            },
+            {
+              "typ": 2,
+              "px": 70.35105603116494,
+              "py": 38,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": 38
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": 40
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 35
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 30
+        }
+      ]
+    ],
+    "faceTopWall2": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 104,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 69.81793068761735,
+              "py": 40
+            },
+            {
+              "typ": 2,
+              "px": 68.81793068761735,
+              "py": 39.732050807568875,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 45.000000000000014,
+              "py": 25.98076211353316
+            },
+            {
+              "typ": 2,
+              "px": 42.307692307692314,
+              "py": 26.64693550105964,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": -32.13938048432697,
+              "py": 38.302222155948904,
+              "radius": 50.00000000000003,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -30.85380526495389,
+              "py": 36.770133269710946
+            },
+            {
+              "typ": 2,
+              "px": 41.53256364597096,
+              "py": 24.063377921509066,
+              "radius": 48.000000000000014,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 44.25860093029064,
+              "py": 23.331385486306633,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 69.35554223209407,
+              "py": 37.73463318193198
+            },
+            {
+              "typ": 2,
+              "px": 70.35105603116494,
+              "py": 38,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": 38
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": 40
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 104,
+              "py": -40
+            },
+            {
+              "typ": 1,
+              "px": 69.81793068761735,
+              "py": -40
+            },
+            {
+              "typ": 2,
+              "px": 68.81793068761735,
+              "py": -39.732050807568875,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 45.00000000000003,
+              "py": -25.980762113533167
+            },
+            {
+              "typ": 2,
+              "px": 42.30769230769233,
+              "py": -26.646935501059634,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -32.13938048432697,
+              "py": -38.302222155948904,
+              "radius": 50.00000000000003,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -30.85380526495389,
+              "py": -36.770133269710946
+            },
+            {
+              "typ": 2,
+              "px": 41.53256364597098,
+              "py": -24.06337792150906,
+              "radius": 48.00000000000001,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 44.25860093029066,
+              "py": -23.331385486306647,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 69.35554223209407,
+              "py": -37.73463318193198
+            },
+            {
+              "typ": 2,
+              "px": 70.35105603116494,
+              "py": -38,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": -38
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": -40
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 35
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 30
+        }
+      ]
+    ],
+    "faceTopTube": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 104,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": 69.81793068761735,
+              "py": 40
+            },
+            {
+              "typ": 2,
+              "px": 68.81793068761735,
+              "py": 39.732050807568875,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 52,
+              "py": 30.02221399786054
+            },
+            {
+              "typ": 1,
+              "px": 52,
+              "py": 29.02221399786054
+            },
+            {
+              "typ": 1,
+              "px": 56,
+              "py": 29.02221399786054
+            },
+            {
+              "typ": 1,
+              "px": 56,
+              "py": -29.02221399786054
+            },
+            {
+              "typ": 1,
+              "px": 52,
+              "py": -29.02221399786054
+            },
+            {
+              "typ": 1,
+              "px": 52,
+              "py": -30.02221399786054
+            },
+            {
+              "typ": 1,
+              "px": 68.81793068761735,
+              "py": -39.732050807568875
+            },
+            {
+              "typ": 2,
+              "px": 69.81793068761735,
+              "py": -40,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": -40
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": -38
+            },
+            {
+              "typ": 1,
+              "px": 100,
+              "py": -38
+            },
+            {
+              "typ": 1,
+              "px": 100,
+              "py": 38
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": 38
+            },
+            {
+              "typ": 1,
+              "px": 104,
+              "py": 40
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 93,
+              "py": 38
+            },
+            {
+              "typ": 1,
+              "px": 70.3538290724796,
+              "py": 38
+            },
+            {
+              "typ": 2,
+              "px": 69.3538290724796,
+              "py": 37.732050807568875,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 60.5,
+              "py": 32.62029020921385
+            },
+            {
+              "typ": 2,
+              "px": 58,
+              "py": 28.290163190291654,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 58,
+              "py": -28.290163190291654
+            },
+            {
+              "typ": 2,
+              "px": 60.5,
+              "py": -32.62029020921385,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 69.3538290724796,
+              "py": -37.732050807568875
+            },
+            {
+              "typ": 2,
+              "px": 70.3538290724796,
+              "py": -38,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 93,
+              "py": -38
+            },
+            {
+              "typ": 2,
+              "px": 98,
+              "py": -33,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 98,
+              "py": 33
+            },
+            {
+              "typ": 2,
+              "px": 93,
+              "py": 38,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ],
+    "faceTopPlate3": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -4,
+              "py": -40
+            },
+            {
+              "typ": 1,
+              "px": 100,
+              "py": -40
+            },
+            {
+              "typ": 1,
+              "px": 100,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": -4,
+              "py": 40
+            },
+            {
+              "typ": 1,
+              "px": -4,
+              "py": -40
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 93,
+              "py": 38
+            },
+            {
+              "typ": 1,
+              "px": 70.3538290724796,
+              "py": 38
+            },
+            {
+              "typ": 2,
+              "px": 69.3538290724796,
+              "py": 37.732050807568875,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 60.5,
+              "py": 32.62029020921385
+            },
+            {
+              "typ": 2,
+              "px": 58,
+              "py": 28.290163190291654,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 58,
+              "py": -28.290163190291654
+            },
+            {
+              "typ": 2,
+              "px": 60.5,
+              "py": -32.62029020921385,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 69.3538290724796,
+              "py": -37.732050807568875
+            },
+            {
+              "typ": 2,
+              "px": 70.3538290724796,
+              "py": -38,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 93,
+              "py": -38
+            },
+            {
+              "typ": 2,
+              "px": 98,
+              "py": -33,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 98,
+              "py": 33
+            },
+            {
+              "typ": 2,
+              "px": 93,
+              "py": 38,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ],
+    "faceSidePlate": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -40,
+              "py": 150
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 90.39817037450143
+            },
+            {
+              "typ": 2,
+              "px": -39.93698376402038,
+              "py": 89.6068478651545,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -29.62190258412231,
+              "py": 25.252064943918466
+            },
+            {
+              "typ": 2,
+              "px": 29.62190258412231,
+              "py": 25.252064943918466,
+              "radius": 30,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 39.93698376402038,
+              "py": 89.6068478651545
+            },
+            {
+              "typ": 2,
+              "px": 40,
+              "py": 90.39817037450143,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 40,
+              "py": 150
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 150
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 30,
+          "radius": 10
+        }
+      ]
+    ],
+    "faceSideArc": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -2,
+              "py": 90
+            },
+            {
+              "typ": 1,
+              "px": 6.860379610028063,
+              "py": 116.58113883008419
+            },
+            {
+              "typ": 2,
+              "px": 11.603796100280631,
+              "py": 120,
+              "radius": 5,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 84.39620389971937,
+              "py": 120
+            },
+            {
+              "typ": 2,
+              "px": 89.13962038997194,
+              "py": 116.58113883008419,
+              "radius": 5,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 98,
+              "py": 90
+            },
+            {
+              "typ": 1,
+              "px": 98,
+              "py": 150
+            },
+            {
+              "typ": 1,
+              "px": -2,
+              "py": 150
+            },
+            {
+              "typ": 1,
+              "px": -2,
+              "py": 90
+            }
+          ]
+        }
+      ]
+    ],
+    "faceRelief3": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -30.02221399786054,
+              "py": 151.5
+            },
+            {
+              "typ": 1,
+              "px": 30.02221399786054,
+              "py": 151.5
+            },
+            {
+              "typ": 1,
+              "px": 30.02221399786054,
+              "py": 194.5
+            },
+            {
+              "typ": 1,
+              "px": -30.02221399786054,
+              "py": 194.5
+            },
+            {
+              "typ": 1,
+              "px": -30.02221399786054,
+              "py": 151.5
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -17.189545870065317,
+              "py": 155
+            },
+            {
+              "typ": 1,
+              "px": 17.189545870065317,
+              "py": 155
+            },
+            {
+              "typ": 2,
+              "px": 18.35401401738614,
+              "py": 158.62604241453758,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 1.1644681473208247,
+              "py": 170.93610176701375
+            },
+            {
+              "typ": 2,
+              "px": -1.164468147320825,
+              "py": 170.93610176701375,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -18.35401401738614,
+              "py": 158.62604241453758
+            },
+            {
+              "typ": 2,
+              "px": -17.189545870065317,
+              "py": 155,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -17.189545870065317,
+              "py": 191
+            },
+            {
+              "typ": 1,
+              "px": 17.189545870065317,
+              "py": 191
+            },
+            {
+              "typ": 2,
+              "px": 18.35401401738614,
+              "py": 187.37395758546242,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 1.1644681473208252,
+              "py": 175.06389823298625
+            },
+            {
+              "typ": 2,
+              "px": -1.1644681473208254,
+              "py": 175.06389823298625,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -18.35401401738614,
+              "py": 187.37395758546242
+            },
+            {
+              "typ": 2,
+              "px": -17.189545870065317,
+              "py": 191,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -24.857745850539715,
+              "py": 156.42844379935013
+            },
+            {
+              "typ": 1,
+              "px": -3.9880987252077453,
+              "py": 171.37395758546242
+            },
+            {
+              "typ": 2,
+              "px": -3.9880987252077453,
+              "py": 174.62604241453758,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -24.857745850539715,
+              "py": 189.57155620064987
+            },
+            {
+              "typ": 2,
+              "px": -28.02221399786054,
+              "py": 187.94551378611226,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -28.02221399786054,
+              "py": 158.05448621388774
+            },
+            {
+              "typ": 2,
+              "px": -24.857745850539715,
+              "py": 156.42844379935013,
+              "radius": 2,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 24.857745850539715,
+              "py": 156.42844379935013
+            },
+            {
+              "typ": 1,
+              "px": 3.988098725207745,
+              "py": 171.37395758546242
+            },
+            {
+              "typ": 2,
+              "px": 3.988098725207745,
+              "py": 174.62604241453758,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 24.857745850539715,
+              "py": 189.57155620064987
+            },
+            {
+              "typ": 2,
+              "px": 28.02221399786054,
+              "py": 187.94551378611226,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 28.02221399786054,
+              "py": 158.05448621388774
+            },
+            {
+              "typ": 2,
+              "px": 24.857745850539715,
+              "py": 156.42844379935013,
+              "radius": 2,
+              "large": false,
+              "ccw": false
+            }
+          ]
+        }
+      ]
+    ],
+    "faceRelief4": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -38,
+              "py": 196
+            },
+            {
+              "typ": 1,
+              "px": -38,
+              "py": 153
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 153
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 90.39817037450143
+            },
+            {
+              "typ": 2,
+              "px": -39.93698376402038,
+              "py": 89.6068478651545,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -29.62190258412231,
+              "py": 25.252064943918466
+            },
+            {
+              "typ": 2,
+              "px": 29.62190258412231,
+              "py": 25.252064943918466,
+              "radius": 30,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 39.93698376402038,
+              "py": 89.6068478651545
+            },
+            {
+              "typ": 2,
+              "px": 40,
+              "py": 90.39817037450143,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 40,
+              "py": 153
+            },
+            {
+              "typ": 1,
+              "px": 38,
+              "py": 153
+            },
+            {
+              "typ": 1,
+              "px": 38,
+              "py": 196
+            },
+            {
+              "typ": 1,
+              "px": -38,
+              "py": 196
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -37,
+              "py": 187
+            },
+            {
+              "typ": 1,
+              "px": -37,
+              "py": 90.6370725992023
+            },
+            {
+              "typ": 2,
+              "px": -36.93698376402038,
+              "py": 89.84575008985537,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -26.65971232571008,
+              "py": 25.726858449526613
+            },
+            {
+              "typ": 2,
+              "px": 26.65971232571008,
+              "py": 25.726858449526613,
+              "radius": 27,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 36.93698376402038,
+              "py": 89.84575008985537
+            },
+            {
+              "typ": 2,
+              "px": 37,
+              "py": 90.6370725992023,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 37,
+              "py": 187
+            },
+            {
+              "typ": 2,
+              "px": 32,
+              "py": 192,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 6.000000000000001,
+              "py": 192
+            },
+            {
+              "typ": 2,
+              "px": 1.0000000000000002,
+              "py": 187,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 1.0000000000000002,
+              "py": 45.905973720586886
+            },
+            {
+              "typ": 2,
+              "px": 4.235294117647044,
+              "py": 41.22774615570838,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -4.2352941176470535,
+              "py": 41.227746155708374,
+              "radius": 12,
+              "large": true,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": -0.9999999999999998,
+              "py": 45.90597372058688,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -0.9999999999999997,
+              "py": 187
+            },
+            {
+              "typ": 2,
+              "px": -6.000000000000001,
+              "py": 192,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -32,
+              "py": 192
+            },
+            {
+              "typ": 2,
+              "px": -37,
+              "py": 187,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 30,
+          "radius": 10
+        }
+      ]
+    ],
+    "faceRelief5": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -40,
+              "py": 153
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 90.39817037450143
+            },
+            {
+              "typ": 2,
+              "px": -39.93698376402038,
+              "py": 89.6068478651545,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -29.62190258412231,
+              "py": 25.252064943918466
+            },
+            {
+              "typ": 2,
+              "px": 29.62190258412231,
+              "py": 25.252064943918466,
+              "radius": 30,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 39.93698376402038,
+              "py": 89.6068478651545
+            },
+            {
+              "typ": 2,
+              "px": 40,
+              "py": 90.39817037450143,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 40,
+              "py": 153
+            },
+            {
+              "typ": 1,
+              "px": -40,
+              "py": 153
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -37,
+              "py": 144
+            },
+            {
+              "typ": 1,
+              "px": -37,
+              "py": 90.6370725992023
+            },
+            {
+              "typ": 2,
+              "px": -36.93698376402038,
+              "py": 89.84575008985537,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -26.65971232571008,
+              "py": 25.726858449526613
+            },
+            {
+              "typ": 2,
+              "px": 26.65971232571008,
+              "py": 25.726858449526613,
+              "radius": 27,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 36.93698376402038,
+              "py": 89.84575008985537
+            },
+            {
+              "typ": 2,
+              "px": 37,
+              "py": 90.6370725992023,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 37,
+              "py": 144
+            },
+            {
+              "typ": 2,
+              "px": 32,
+              "py": 149,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 6.000000000000001,
+              "py": 149
+            },
+            {
+              "typ": 2,
+              "px": 1.0000000000000002,
+              "py": 144,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 1.0000000000000002,
+              "py": 45.90597372058688
+            },
+            {
+              "typ": 2,
+              "px": 4.235294117647049,
+              "py": 41.22774615570838,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -4.2352941176470535,
+              "py": 41.227746155708374,
+              "radius": 12,
+              "large": true,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": -0.9999999999999998,
+              "py": 45.90597372058688,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -0.9999999999999997,
+              "py": 144
+            },
+            {
+              "typ": 2,
+              "px": -6.000000000000001,
+              "py": 149,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -32,
+              "py": 149
+            },
+            {
+              "typ": 2,
+              "px": -37,
+              "py": 144,
+              "radius": 5,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 30,
+          "radius": 10
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_pivot_plate1",
+        "face": "pivot_faceTopPlate1",
+        "extrudeMethod": 0,
+        "length": 3,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          286
+        ]
+      },
+      {
+        "outName": "subpax_pivot_wall11",
+        "face": "pivot_faceTopWall1",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          276
+        ]
+      },
+      {
+        "outName": "subpax_pivot_wall2",
+        "face": "pivot_faceTopWall2",
+        "extrudeMethod": 0,
+        "length": 70,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          206
+        ]
+      },
+      {
+        "outName": "subpax_pivot_wall12",
+        "face": "pivot_faceTopWall1",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          196
+        ]
+      },
+      {
+        "outName": "subpax_pivot_plate2",
+        "face": "pivot_faceTopPlate2",
+        "extrudeMethod": 0,
+        "length": 3,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          193
+        ]
+      },
+      {
+        "outName": "subpax_pivot_tube",
+        "face": "pivot_faceTopTube",
+        "extrudeMethod": 0,
+        "length": 40,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          153
+        ]
+      },
+      {
+        "outName": "subpax_pivot_plate3",
+        "face": "pivot_faceTopPlate3",
+        "extrudeMethod": 0,
+        "length": 3,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          150
+        ]
+      },
+      {
+        "outName": "subpax_pivot_sideplate5",
+        "face": "pivot_faceSidePlate",
+        "extrudeMethod": 0,
+        "length": 2,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          -1.5707963267948966
+        ],
+        "translate": [
+          -2,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_pivot_sideplate4",
+        "face": "pivot_faceSidePlate",
+        "extrudeMethod": 0,
+        "length": 2,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          -1.5707963267948966
+        ],
+        "translate": [
+          100,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_pivot_sidearc1",
+        "face": "pivot_faceSideArc",
+        "extrudeMethod": 0,
+        "length": 2,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          -38,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_pivot_sidearc2",
+        "face": "pivot_faceSideArc",
+        "extrudeMethod": 0,
+        "length": 2,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          40,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_pivot_siderelief3",
+        "face": "pivot_faceRelief3",
+        "extrudeMethod": 0,
+        "length": 4,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          -1.5707963267948966
+        ],
+        "translate": [
+          56,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_pivot_siderelief5",
+        "face": "pivot_faceRelief5",
+        "extrudeMethod": 0,
+        "length": 4,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          -1.5707963267948966
+        ],
+        "translate": [
+          -4,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_pivot_siderelief4",
+        "face": "pivot_faceRelief4",
+        "extrudeMethod": 0,
+        "length": 4,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          -1.5707963267948966
+        ],
+        "translate": [
+          104,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_pivot",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_pivot_plate1",
+          "subpax_pivot_wall11",
+          "subpax_pivot_wall2",
+          "subpax_pivot_wall12",
+          "subpax_pivot_plate2",
+          "subpax_pivot_tube",
+          "subpax_pivot_plate3",
+          "subpax_pivot_sideplate5",
+          "subpax_pivot_sideplate4",
+          "subpax_pivot_sidearc1",
+          "subpax_pivot_sidearc2",
+          "subpax_pivot_siderelief3",
+          "subpax_pivot_siderelief5",
+          "subpax_pivot_siderelief4"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "pivot simTime: 0\nLextra 54.00  Rmax 111.43  Dmax 222.85 mm\nLreturn 112.00  Lend -8.00 mm\nH1tot 96.00  H3tot 153.00  Htot 289.00 mm\nA1 60.00 degree, T2min 1.54\noutline1Mode 2\npivot drawn successfully!\n"
+}

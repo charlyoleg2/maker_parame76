@@ -1,0 +1,7 @@
+pivot simTime: 0
+Lextra 54.00  Rmax 111.43  Dmax 222.85 mm
+Lreturn 112.00  Lend -8.00 mm
+H1tot 96.00  H3tot 153.00  Htot 289.00 mm
+A1 60.00 degree, T2min 1.54
+outline1Mode 2
+pivot drawn successfully!
