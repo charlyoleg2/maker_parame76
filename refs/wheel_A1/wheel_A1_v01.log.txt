@@ -1,4 +1,4 @@
 wheel simTime: 0
 Wtot 28.00  Dpneu 108.00  Dtrans 36.00 mm
-RL 3.76  RH 3.59 mm
+RL 1.66  RH 1.67 mm
 wheel drawn successfully!
