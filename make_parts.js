@@ -15,6 +15,7 @@ const c_Parts = {
 	lift_A1: 'lift_A1_v01',
 	pivot_A1: 'pivot_A1_v01',
 	wheel_A1: 'wheel_A1_v01',
+	foot_A1: 'foot_A1_v01',
 };
 
 const c_svgdxf = {
@@ -28,6 +29,7 @@ const c_svgdxf = {
 	lift_A1: ['faceTopPlate', 'faceTopEnd', 'faceTopBack', 'faceTopDisc', 'faceSideL', 'faceSideM', 'faceBack'],
 	pivot_A1: ['faceTopPlate1', 'faceTopPlate2', 'faceTopWall1', 'faceTopWall2', 'faceTopTube', 'faceTopPlate3', 'faceSidePlate', 'faceSideArc', 'faceRelief3', 'faceRelief4', 'faceRelief5'],
 	wheel_A1: ['facePneu', 'faceCut', 'faceTrans1', 'faceTrans2', 'faceTube'],
+	foot_A1: ['faceTop', 'faceSideExt', 'faceSideInt', 'faceSideArc', 'faceAxis1', 'faceAxis3'],
 };
 
 function inferDesignName(instanceName) {
