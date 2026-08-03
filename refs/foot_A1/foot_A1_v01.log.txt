@@ -1,0 +1,22 @@
+foot simTime: 0
+wheel-pivot wW16 129.00 pS5b 119.70 mm
+DzMin 204.00  RzMax 159.24  RzDiff 57.24 mm
+wheelD wD6 250.00  margin1 20.00  margin2 3.80 mm
+pH15 96.00  lH1 100.70  lHtot 146.70  Htot 426.05 mm
+[wheel]: wheel simTime: 0
+[wheel]: Wtot 129.00  Dpneu 250.00  Dtrans 39.40 mm
+[wheel]: RL 4.82  RH 4.65 mm
+[wheel]: wheel drawn successfully!
+[pivot]: pivot simTime: 0
+[pivot]: Lextra 45.00  Rmax 156.92  Dmax 313.85 mm
+[pivot]: Lreturn 143.70  Lend 1.30 mm
+[pivot]: H1tot 98.00  H3tot 178.00  Htot 311.70 mm
+[pivot]: A1 54.97 degree, T2min 1.66
+[pivot]: outline1Mode 2
+[pivot]: pivot drawn successfully!
+[lift]: lift simTime: 0
+[lift]: W7 211.31 mm  outline-mode 3
+[lift]: A1 bounds  b1 90.00  b2 113.45 degree
+[lift]: H32124 146.70 mm
+[lift]: lift drawn successfully!
+rccar-foot drawn successfully!
