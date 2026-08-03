@@ -1402,7 +1402,7 @@ const subpax_lift_disc1 =
 
 
 const subpax_lift_disc2 =
-	translate( [ 0, 0, 130.5, ],
+	translate( [ 0, 0, 127.5, ],
 		rotate( [ 0, 0, 0, ],
 			   extrudeLinear( {height: 0.5}, fig_lift_faceTopDisc )
 		)

@@ -203,6 +203,33 @@ def pivot_faceTopPlate2():
 	rOneFig.check()
 	return rOneFig
 
+def ctr_face_pivot_faceTopH5_Fa0_Ctr0():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(50.0000, App.Vector(0.0000, 0.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_pivot_faceTopH5_Fa0_Ctr1():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(30.0000, App.Vector(0.0000, 0.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def face_pivot_faceTopH5_Fa0():
+	FC000 = ctr_face_pivot_faceTopH5_Fa0_Ctr0()
+	FC001 = ctr_face_pivot_faceTopH5_Fa0_Ctr1()
+	rOneFace = FC000.cut([FC001])
+	rOneFace.check()
+	return rOneFace
+
+def pivot_faceTopH5():
+	FA000 = face_pivot_faceTopH5_Fa0()
+	rOneFig = FA000
+	rOneFig.check()
+	return rOneFig
+
 def ctr_face_pivot_faceTopWall1_Fa0_Ctr0():
 	P000 = App.Vector(104.0000, 40.0000, 0)
 	P001 = App.Vector(69.8179, 40.0000, 0)
@@ -1043,6 +1070,26 @@ def fex_subpax_pivot_plate2():
 	return VFP
 subpax_pivot_plate2 = fex_subpax_pivot_plate2()
 
+def fex_subpax_pivot_h51():
+	FIG = pivot_faceTopH5()
+	VEX = FIG.extrude(App.Vector(0, 0, 1))
+	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
+	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
+	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 289.0000))
+	return VFP
+subpax_pivot_h51 = fex_subpax_pivot_h51()
+
+def fex_subpax_pivot_h52():
+	FIG = pivot_faceTopH5()
+	VEX = FIG.extrude(App.Vector(0, 0, 1))
+	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
+	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
+	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 192.0000))
+	return VFP
+subpax_pivot_h52 = fex_subpax_pivot_h52()
+
 def fex_subpax_pivot_tube():
 	FIG = pivot_faceTopTube()
 	VEX = FIG.extrude(App.Vector(0, 0, 40))
@@ -1139,16 +1186,18 @@ def fvol_pax_pivot():
 	V002 = V001.fuse(subpax_pivot_wall2)
 	V003 = V002.fuse(subpax_pivot_wall12)
 	V004 = V003.fuse(subpax_pivot_plate2)
-	V005 = V004.fuse(subpax_pivot_tube)
-	V006 = V005.fuse(subpax_pivot_plate3)
-	V007 = V006.fuse(subpax_pivot_sideplate5)
-	V008 = V007.fuse(subpax_pivot_sideplate4)
-	V009 = V008.fuse(subpax_pivot_sidearc1)
-	V010 = V009.fuse(subpax_pivot_sidearc2)
-	V011 = V010.fuse(subpax_pivot_siderelief3)
-	V012 = V011.fuse(subpax_pivot_siderelief5)
-	V013 = V012.fuse(subpax_pivot_siderelief4)
-	VFC = V013.removeSplitter()
+	V005 = V004.fuse(subpax_pivot_h51)
+	V006 = V005.fuse(subpax_pivot_h52)
+	V007 = V006.fuse(subpax_pivot_tube)
+	V008 = V007.fuse(subpax_pivot_plate3)
+	V009 = V008.fuse(subpax_pivot_sideplate5)
+	V010 = V009.fuse(subpax_pivot_sideplate4)
+	V011 = V010.fuse(subpax_pivot_sidearc1)
+	V012 = V011.fuse(subpax_pivot_sidearc2)
+	V013 = V012.fuse(subpax_pivot_siderelief3)
+	V014 = V013.fuse(subpax_pivot_siderelief5)
+	V015 = V014.fuse(subpax_pivot_siderelief4)
+	VFC = V015.removeSplitter()
 	return VFC
 pax_pivot = fvol_pax_pivot()
 

@@ -563,7 +563,7 @@ def fex_subpax_lift_disc2():
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
-	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 130.5000))
+	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 127.5000))
 	return VFP
 subpax_lift_disc2 = fex_subpax_lift_disc2()
 

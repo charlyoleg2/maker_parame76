@@ -91,7 +91,7 @@ module subpax_lift_disc1 () {
 }
 
 module subpax_lift_disc2 () {
-	translate( [ 0, 0, 130.5 ])
+	translate( [ 0, 0, 127.5 ])
 		rotate( [ 0, 0, 0 ])
 			   linear_extrude(height = 0.5) polygon(a_lift_faceTopDisc, b_lift_faceTopDisc);
 }
